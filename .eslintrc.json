@@ -1,0 +1,8 @@
+{
+  "extends": ["next", "next/core-web-vitals", "eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "rules": {
+    "@typescript-eslint/no-empty-interface": "off",    // Отключение пустого интерфейса
+    "@next/next/no-img-element": "off",                // Отключение предупреждения о <img>
+    "no-irregular-whitespace": "error"                 // Оставляем проверку на неправильные пробелы
+  }
+}

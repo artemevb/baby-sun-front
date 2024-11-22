@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+:root {
+  font-family: var(--font-raleway), sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* Белый цвет фона */
+    --foreground: 220 15% 20%; /* Темно-синий текст */
+    --card: 0 0% 100%; /* Белые карточки */
+    --card-foreground: 220 15% 20%; /* Темный текст на карточках */
+    --popover: 0 0% 100%; /* Белый фон всплывающих окон */
+    --popover-foreground: 220 15% 20%; /* Темный текст для попапов */
+    
+    /* Основной светло-голубой цвет для кнопок и акцентов */
+    --primary: 199 91% 56%; /* Основной светло-голубой */
+    --primary-foreground: 210 40% 98%; /* Белый текст на голубом фоне */
+    
+    --secondary: 210 40% 96.1%; /* Светлый серый цвет для границ */
+    --secondary-foreground: 222.2 47.4% 11.2%; /* Темный текст */
+    
+    --muted: 210 40% 96.1%; /* Мутный светлый серый для фона */
+    --muted-foreground: 215.4 16.3% 46.9%; /* Слегка затемненный текст */
+    
+    --accent: 199 91% 56%; /* Основной светло-голубой */
+    --accent-foreground: 222.2 47.4% 11.2%; /* Темный текст */
+    
+    --destructive: 0 84.2% 60.2%; /* Красный для ошибок */
+    --destructive-foreground: 210 40% 98%; /* Белый текст на красном фоне */
+    
+    --border: 214.3 31.8% 91.4%; /* Светло-серый для границ */
+    --input: 214.3 31.8% 91.4%; /* Светлый фон для инпутов */
+    --ring: 199 91% 56%; /* Голубой для обводок */
+    --radius: 1rem;
+    
+    /* Цветовые схемы для графиков */
+    --chart-1: 199 91% 56%; /* Светло-голубой */
+    --chart-2: 220 70% 40%; /* Темно-синий */
+    --chart-3: 197 37% 24%; /* Средний синий */
+    --chart-4: 43 74% 66%; /* Желтый для акцентов */
+    --chart-5: 27 87% 67%; /* Оранжевый для акцентов */
+  }
+
+  .dark {
+    --background: 220 15% 10%; /* Темный фон */
+    --foreground: 210 40% 98%; /* Светлый текст */
+    --card: 220 15% 10%; /* Темные карточки */
+    --card-foreground: 210 40% 98%; /* Светлый текст на карточках */
+    --popover: 220 15% 10%; /* Темный фон для всплывающих окон */
+    --popover-foreground: 210 40% 98%; /* Светлый текст в попапах */
+    
+    --primary: 199 91% 56%; /* Светло-голубой для акцентов */
+    --primary-foreground: 210 40% 98%; /* Белый текст на голубом фоне */
+    
+    --secondary: 217.2 32.6% 17.5%; /* Темно-синий для текста и границ */
+    --secondary-foreground: 210 40% 98%; /* Светлый текст */
+    
+    --muted: 217.2 32.6% 17.5%; /* Тусклый темный для фона */
+    --muted-foreground: 215 20.2% 65.1%; /* Светлый текст */
+    
+    --accent: 199 91% 56%; /* Светло-голубой для акцентов */
+    --accent-foreground: 210 40% 98%; /* Белый текст на голубом фоне */
+    
+    --destructive: 0 62.8% 30.6%; /* Темно-красный для ошибок */
+    --destructive-foreground: 210 40% 98%; /* Белый текст на красном фоне */
+    
+    --border: 217.2 32.6% 17.5%; /* Темно-синий для границ */
+    --input: 217.2 32.6% 17.5%; /* Темные инпуты */
+    --ring: 224.3 76.3% 48%; /* Голубой для обводок */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+.icon-background {
+  position: absolute;
+  bottom: -100px;
+  right: -80px;
+  width: 400px; /* Adjust size as needed */
+  height: 400px; /* Adjust size as needed */
+  background: radial-gradient(
+    circle at center,
+    rgba(0, 159, 227, 0.3),
+    rgba(0, 159, 227, 0) 70%
+  );
+  filter: blur(40px); /* Adds a soft glow effect */
+  opacity: 0.6;
+  pointer-events: none; /* Ensures it's not interactive */
+}
+
+/* Удаление скроллбара для всех браузеров */
+.no-scrollbar {
+  /* Удаление скроллбара для WebKit-браузеров (Chrome, Safari) */
+  -ms-overflow-style: none;  /* Удаление скроллбара для Internet Explorer и Edge */
+  scrollbar-width: none;     /* Удаление скроллбара для Firefox */
+}
+
+/* Удаление полосы прокрутки в WebKit-браузерах (Chrome, Safari) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.line-anima {
+  animation: lineAnim 8s ease-in-out infinite;
+  -webkit-animation: lineAnim 8s ease-in-out infinite;
+}
+
+@keyframes lineAnim {
+  0% {
+    left:0;
+    width: 0%;
+  }
+
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.custom-hyphens {
+  hyphens: auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
