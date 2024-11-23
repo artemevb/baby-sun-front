@@ -13,16 +13,50 @@ interface Props {
 
 const doctors = [
   {
-    slug: "muminova-madina-muminqizi",
-    doctorKey: "muminova",
-    image: "/images/about/doctors/doctor.png",
+    image: '/images/about/doctors/kuchimov.jpg',
+    doctorKey: 'kuchimov',
+    slug: 'kuchimov-quvondiq-pirnazarovich',
   },
   {
-    slug: "kuchimov-quvondiq-pirnazarovich",
-    doctorKey: "kuchimov",
-    image: "/images/about/doctors/kuchimov.jpg",
+    image: '/images/about/doctors/Nargiza.jpg',
+    doctorKey: 'abdullayeva',
+    slug: 'abdullayeva-nargiza-shukrullayevna',
   },
-  // ... остальные врачи
+  {
+    image: '/images/about/doctors/doctor.png',
+    doctorKey: 'muminova',
+    slug: 'muminova-madina-muminqizi',
+  },
+  {
+    image: '/images/about/doctors/sagdullaeva.jpg',
+    doctorKey: 'sagdullayeva',
+    slug: 'sagdullayeva-nilufar-shukrullayevna',
+  },
+  {
+    image: '/images/about/doctors/talipova.jpg',
+    doctorKey: 'talipova',
+    slug: 'talipova-feruza-xodjimuratovna',
+  },
+  {
+    image: '/images/about/doctors/ziganshina.jpg',
+    doctorKey: 'ziganshina',
+    slug: 'ziganshina-layli-sharofitdinovna',
+  },
+  {
+    image: '/images/about/doctors/karimova.jpg',
+    doctorKey: 'karimova',
+    slug: 'karimova-nafisa-sadullayevna',
+  },
+  {
+    image: '/images/about/doctors/zarifa.jpg',
+    doctorKey: 'ismoilova',
+    slug: 'zarifa-ismoilova-abduvohid-qizi',
+  },
+  {
+    image: '/images/about/doctors/azizov.jpg',
+    doctorKey: 'azizov',
+    slug: 'azizov-abduhalil-abduqodirovich',
+  },
 ];
 
 export const DoctorPage = ({ className }: Props) => {

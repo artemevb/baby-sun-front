@@ -575,5 +575,138 @@
         "Ortoped"
       ]
     }
+  },
+  "ServicesXirurg": {
+    "doctors": [
+      {
+        "image": "/images/about/doctors/talipova.jpg",
+        "fullname": "Ivanov Ivan Ivanovich",
+        "slug": "ivanov-ivan-ivanovich",
+        "speciality": [
+          "Terapevt"
+        ]
+      },
+      {
+        "image": "/images/about/doctors/talipova.jpg",
+        "fullname": "Sidorova Anna Petrovna",
+        "slug": "sidorova-anna-petrovna",
+        "speciality": [
+          "Kardiolog"
+        ]
+      }
+    ]
+  },
+  "ServicesChild": {
+    "doctors": [
+      {
+        "image": "/images/about/doctors/talipova.jpg",
+        "fullname": "Petrov Petr Petrovich",
+        "slug": "petrov-petr-petrovich",
+        "speciality": [
+          "Pediatr"
+        ]
+      },
+      {
+        "image": "/images/about/doctors/talipova.jpg",
+        "fullname": "Kuznetsova Mariya Ivanovna",
+        "slug": "kuznetsova-mariya-ivanovna",
+        "speciality": [
+          "Bolalar xirurgi"
+        ]
+      }
+    ]
+  },
+ 
+    "Specials": {
+      "title": "Xizmat ko‘rsatadigan mutaxassislar",
+      "kuchimov": {
+        "fullname": "Kuchimov Kuvondiq Pirnazarovich",
+        "speciality": [
+          "Xirurgiya"
+        ]
+      },
+      "muminova": {
+        "fullname": "Muminova Madina Mumin qizi",
+        "speciality": [
+          "Xirurg",
+          "Ortoped"
+        ]
+      }
+    },
+    "SpecialsChild": {
+      "title": "Xizmat ko‘rsatadigan mutaxassislar",
+      "azizov": {
+        "fullname": "Azizov Abduxalil Abduxodirovich",
+        "speciality": [
+          ""
+        ]
+      },
+      "muminova": {
+        "fullname": "Muminova Madina Mumin qizi",
+        "speciality": [
+          "Xirurg",
+          "Ortoped"
+        ]
+      },
+      "ismoilova": {
+        "fullname": "Zarifa Ismoilova Abduvohid qizi",
+        "speciality": [
+          "Massaj"
+        ]
+      }
+    },
+    "SpecialsCosm": {
+      "title": "Xizmat ko‘rsatadigan mutaxassislar",
+      "abdullayeva": {
+        "fullname": "Abdullayeva Nargiza Shukrullayevna",
+        "speciality": [
+          "Kosmetologiya",
+          "Massaj"
+        ]
+      }
+    },
+    "SpecialsOrto": {
+      "title": "Xizmat ko‘rsatadigan mutaxassislar",
+      "muminova": {
+        "fullname": "Muminova Madina Mumin qizi",
+        "speciality": [
+          "Xirurg",
+          "Ortoped"
+        ]
+      },
+      "sagdullayeva": {
+        "fullname": "Sagdullayeva Nilufar Shukrullayevna",
+        "speciality": [
+          "Reabilitolog"
+        ]
+      },
+      "ismoilova": {
+        "fullname": "Zarifa Ismoilova Abduvohid qizi",
+        "speciality": [
+          "Massaj"
+        ]
+      },
+      "azizov": {
+        "fullname": "Azizov Abduxalil Abduxodirovich",
+        "speciality": [
+          ""
+        ]
+      }
+    },
+    "SpecialsSpa": {
+      "title": "Xizmat ko‘rsatadigan mutaxassislar",
+      "abdullayeva": {
+        "fullname": "Abdullayeva Nargiza Shukrullayevna",
+        "speciality": [
+          "Kosmetologiya",
+          "Massaj"
+        ]
+      },
+      "ismoilova": {
+        "fullname": "Zarifa Ismoilova Abduvohid qizi",
+        "speciality": [
+          "Massaj"
+        ]
+      }
+    }
   }
-}

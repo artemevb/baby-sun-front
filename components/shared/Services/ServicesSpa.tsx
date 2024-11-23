@@ -4,7 +4,7 @@ import { Map } from '../Map/Map';
 import { Application } from '../Application/Application';
 import { List } from './List/ListSpa';
 import { Benefit } from './Benefit/BenefitSpa';
-import { Specials } from './Specials/Specials';
+import { SpecialsSpa } from './Specials/SpecialsSpa';
 
 interface Props {
   className?: string;
@@ -13,11 +13,11 @@ interface Props {
 export const ServicesSpa = ({ className }: Props) => {
   return (
     <div className={cn(className)}>
-        <List />
-        <Benefit />
-        <Specials />
-        <Application />
-        <Map />
+      <List />
+      <Benefit />
+      <SpecialsSpa />
+      <Application />
+      <Map />
     </div>
   );
 };

@@ -13,11 +13,11 @@ interface Props {
 export const Services = ({ className }: Props) => {
   return (
     <div className={cn(className)}>
-        <List />
-        <Benefit />
-        <Specials />
-        <Application />
-        <Map />
+      <List />
+      <Benefit />
+      <Specials />
+      <Application />
+      <Map />
     </div>
   );
 };
