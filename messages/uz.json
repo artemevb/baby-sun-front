@@ -44,6 +44,7 @@
     "About": {
       "title": "SHROT-terapiya",
       "subtitle": "kursi haqida",
+      "requestTitle": "Kursga yozilish",
       "description": "Shrot usulidan foydalangan holda trening o'murtqa deformatsiyalari, jumladan, skolyoz, kifoz va lordoz bilan og'rigan bemorlarni reabilitatsiya qilishga qaratilgan. Kurs nazariy va amaliy mashg'ulotlardan iborat, bu sizga umurtqa egriliklari fiziologiyasini va ularni tuzatish usullarini chuqur o'rganish imkonini beradi. Shrot usuli butun dunyoda skoliozni jarrohliksiz samarali davolash usuli sifatida tan olingan va dasturimiz uni amalda o'zlashtirishingizga yordam beradi."
     },
     "Learn": {
@@ -616,97 +617,802 @@
       }
     ]
   },
- 
-    "Specials": {
-      "title": "Xizmat ko‘rsatadigan mutaxassislar",
-      "kuchimov": {
-        "fullname": "Kuchimov Kuvondiq Pirnazarovich",
-        "speciality": [
-          "Xirurgiya"
-        ]
-      },
-      "muminova": {
-        "fullname": "Muminova Madina Mumin qizi",
-        "speciality": [
-          "Xirurg",
-          "Ortoped"
-        ]
-      }
+  "Specials": {
+    "title": "Xizmat ko‘rsatadigan mutaxassislar",
+    "kuchimov": {
+      "fullname": "Kuchimov Kuvondiq Pirnazarovich",
+      "speciality": [
+        "Xirurgiya"
+      ]
     },
-    "SpecialsChild": {
-      "title": "Xizmat ko‘rsatadigan mutaxassislar",
-      "azizov": {
-        "fullname": "Azizov Abduxalil Abduxodirovich",
-        "speciality": [
-          ""
-        ]
-      },
-      "muminova": {
-        "fullname": "Muminova Madina Mumin qizi",
-        "speciality": [
-          "Xirurg",
-          "Ortoped"
-        ]
-      },
-      "ismoilova": {
-        "fullname": "Zarifa Ismoilova Abduvohid qizi",
-        "speciality": [
-          "Massaj"
-        ]
-      }
+    "muminova": {
+      "fullname": "Muminova Madina Mumin qizi",
+      "speciality": [
+        "Xirurg",
+        "Ortoped"
+      ]
+    }
+  },
+  "SpecialsChild": {
+    "title": "Xizmat ko‘rsatadigan mutaxassislar",
+    "azizov": {
+      "fullname": "Azizov Abduxalil Abduxodirovich",
+      "speciality": [
+        ""
+      ]
     },
-    "SpecialsCosm": {
-      "title": "Xizmat ko‘rsatadigan mutaxassislar",
-      "abdullayeva": {
-        "fullname": "Abdullayeva Nargiza Shukrullayevna",
-        "speciality": [
-          "Kosmetologiya",
-          "Massaj"
-        ]
-      }
+    "muminova": {
+      "fullname": "Muminova Madina Mumin qizi",
+      "speciality": [
+        "Xirurg",
+        "Ortoped"
+      ]
     },
-    "SpecialsOrto": {
-      "title": "Xizmat ko‘rsatadigan mutaxassislar",
-      "muminova": {
-        "fullname": "Muminova Madina Mumin qizi",
-        "speciality": [
-          "Xirurg",
-          "Ortoped"
-        ]
-      },
-      "sagdullayeva": {
-        "fullname": "Sagdullayeva Nilufar Shukrullayevna",
-        "speciality": [
-          "Reabilitolog"
-        ]
-      },
-      "ismoilova": {
-        "fullname": "Zarifa Ismoilova Abduvohid qizi",
-        "speciality": [
-          "Massaj"
-        ]
-      },
-      "azizov": {
-        "fullname": "Azizov Abduxalil Abduxodirovich",
-        "speciality": [
-          ""
-        ]
-      }
+    "ismoilova": {
+      "fullname": "Zarifa Ismoilova Abduvohid qizi",
+      "speciality": [
+        "Massaj"
+      ]
+    }
+  },
+  "SpecialsCosm": {
+    "title": "Xizmat ko‘rsatadigan mutaxassislar",
+    "abdullayeva": {
+      "fullname": "Abdullayeva Nargiza Shukrullayevna",
+      "speciality": [
+        "Kosmetologiya",
+        "Massaj"
+      ]
+    }
+  },
+  "SpecialsOrto": {
+    "title": "Xizmat ko‘rsatadigan mutaxassislar",
+    "muminova": {
+      "fullname": "Muminova Madina Mumin qizi",
+      "speciality": [
+        "Xirurg",
+        "Ortoped"
+      ]
     },
-    "SpecialsSpa": {
-      "title": "Xizmat ko‘rsatadigan mutaxassislar",
-      "abdullayeva": {
-        "fullname": "Abdullayeva Nargiza Shukrullayevna",
-        "speciality": [
-          "Kosmetologiya",
-          "Massaj"
-        ]
+    "sagdullayeva": {
+      "fullname": "Sagdullayeva Nilufar Shukrullayevna",
+      "speciality": [
+        "Reabilitolog"
+      ]
+    },
+    "ismoilova": {
+      "fullname": "Zarifa Ismoilova Abduvohid qizi",
+      "speciality": [
+        "Massaj"
+      ]
+    },
+    "azizov": {
+      "fullname": "Azizov Abduxalil Abduxodirovich",
+      "speciality": [
+        ""
+      ]
+    }
+  },
+  "SpecialsSpa": {
+    "title": "Xizmat ko‘rsatadigan mutaxassislar",
+    "abdullayeva": {
+      "fullname": "Abdullayeva Nargiza Shukrullayevna",
+      "speciality": [
+        "Kosmetologiya",
+        "Massaj"
+      ]
+    },
+    "ismoilova": {
+      "fullname": "Zarifa Ismoilova Abduvohid qizi",
+      "speciality": [
+        "Massaj"
+      ]
+    }
+  },
+  "Modules": {
+    "CourseProgram": "Kurs dasturi",
+    "Module": "Modul",
+    "Duration": "4 oy",
+    "DurationText": "kurs davomiyligi",
+    "FindOutCost": "Narxni bilish",
+    "module1": {
+      "title": "SHROT-terapiya asoslari",
+      "description": "SHROT-terapiya asoslari, umurtqa pog'onasining anatomiyasi va fiziologiyasi, skoliozni diagnostika qilishning asosiy prinsiplari bilan tanishish.",
+      "points": [
+        "Metodika bilan tanishish",
+        "Skoliozni davolashning asosiy prinsiplari o'rganish",
+        "Umurtqa pog'onasining anatomiyasi va fiziologiyasining o'ziga xosliklari",
+        "Umurtqa pog'onasi egri chiziqlarini diagnostika qilish va tahlil qilish asoslari",
+        "Bemorni kurs boshlanishiga tayyorlash",
+        "Nafas olish bo'yicha birinchi mashqlar guruhini o'rgatish",
+        "Qomatni tuzatish metodikalariga umumiy nazar"
+      ]
+    },
+    "module2": {
+      "title": "SHROT-terapiya texnikalarini chuqur o'rganish",
+      "description": "Umurtqa pog'onasining egri chiziqlari bilan ishlash va chuqur tushunish uchun texnikalar va mashqlar.",
+      "points": [
+        "Nafas olishning ilg'or texnikasi",
+        "Qomatni tuzatish uchun maqsad va vazifalarni belgilash",
+        "Individual mashqlar dasturlarini ishlab chiqish",
+        "Ko'krak qismi umurtqa pog'onasi bilan ishlash metodikasi",
+        "Mashqlarni xavfsiz bajarish asoslari",
+        "Bemorning rivojlanishini nazorat qilish prinsiplari va usullari",
+        "Bel qismi umurtqa pog'onasi bilan ishlash",
+        "O'smirlar va bolalar bilan ishlashning o'ziga xosliklari"
+      ]
+    },
+    "module3": {
+      "title": "SHROT-terapiyaning amaliy qo'llanilishi",
+      "description": "Qomatni saqlash texnikalarini o'rgatish va terapiya sxemalarini to'g'ri qurishga qaratilgan amaliy mashg'ulotlar.",
+      "points": [
+        "Xatolarni tahlil qilish va mashqlarni tuzatish",
+        "Og'ir skolioz holatlari bilan ishlash usullari",
+        "Bemorlarni qomatni mustaqil tuzatish uchun o'rgatish",
+        "Mashqlar uchun turli asbob-uskunalar va jihozlardan foydalanish",
+        "Mushaklarni bo'shashtirish va tiklash texnikalari",
+        "Bemorlar bilan psixologik yondashuv",
+        "Mashg'ulotlar dasturini yaratish va tuzatish",
+        "Natijalarni barqarorligi prinsiplari va umurtqa pog'onasi salomatligini saqlash"
+      ]
+    },
+    "module4": {
+      "title": "Yakuniy bosqich va rivojlanishni baholash",
+      "description": "Kursni yakunlash, rivojlanishni baholash, natijalarni saqlash va bemorlar uchun uzoq muddatli tavsiyalar ishlab chiqishga qaratilgan.",
+      "points": [
+        "Terapiyaning rivojlanishi va natijalarini baholash usullari",
+        "Olingan natijalarni uzoq muddatda saqlash",
+        "Bemorlarning kundalik hayoti uchun tavsiyalar ishlab chiqish",
+        "Bemorlarni mustaqil ishlash uchun mashqlar bilan o'rgatish",
+        "Kursdan keyin maslahatlar prinsiplari va qoidalari",
+        "Guruhlar bilan ishlash va hamkasblar uchun ma'ruzalar o'tkazish",
+        "Skoliozni davolash sohasidagi tadqiqotlar va statistikani tahlil qilish",
+        "Yakuniy attestatsiya va sertifikatlash"
+      ]
+    }
+  },
+  "ModulesCosm": {
+    "CourseProgram": "Kurs dasturi",
+    "Module": "Modul",
+    "Duration": "20 kun",
+    "DurationText": "kurs davomiyligi",
+    "FindOutCost": "Narxni bilish",
+    "module1": {
+      "title": "Kosmetologiya asoslari va teri diagnostikasi",
+      "description": "Kosmetologiyaning asoslari, teri anatomiyasi va diagnostika usullari o‘rganish.",
+      "points": [
+        "Kosmetologiya bilan tanishish",
+        "Teri tuzilishi va funksiyalari",
+        "Teri diagnostikasi usullari",
+        "Teri turiga qarab parvarishni tanlash",
+        "Teri holatiga ta'sir qiluvchi omillarni o‘rganish",
+        "Teri muammolarini baholash va ularni bartaraf etish bo‘yicha tavsiyalar",
+        "Kosmetologning gigienik jihatlari",
+        "Etika va mijozlar bilan professional muloqot"
+      ]
+    },
+    "module2": {
+      "title": "Tozalash usullari va kosmetik protseduralar",
+      "description": "Teri parvarishi uchun turli tozalash va parvarish texnikalarini amaliyotda qo‘llash.",
+      "points": [
+        "Yengil va chuqur tozalash asoslari",
+        "Oziqlantiruvchi kremlarni tayyorlash",
+        "Uy sharoitida kosmetik vositalar yaratish",
+        "Yuz uchun parafinli maskalarni qo‘llash",
+        "Mexanik va kimyoviy tozalash usullari",
+        "Davolovchi kremlarni tayyorlash",
+        "Teri muammolari bilan ishlash: pigmentatsiya, akne",
+        "SPF himoyasini to‘g‘ri tanlash va qo‘llash"
+      ]
+    },
+    "module3": {
+      "title": "Estetik protseduralar va professional texnikalar",
+      "description": "Mассаж texnikalari, maskalar va boshqa estetik protseduralarni o‘rganish.",
+      "points": [
+        "Yuz kosmetik massajining asoslari",
+        "Piling va uning turlari",
+        "Alginat maskalarini tayyorlash va qo‘llash",
+        "Yuzni massajlash va chiroyli ko‘rinishini ta’minlash",
+        "Uy sharoitida davolovchi maskalardan foydalanish",
+        "Sezgir teri zonalari bilan ishlash",
+        "Charchoqni yengillashtirish va terini yoshartirish protseduralari",
+        "Massaj va protseduralar uchun vositalarni tayyorlash"
+      ]
+    },
+    "module4": {
+      "title": "Injektsion protseduralar va innovatsion usullar",
+      "description": "Kosmetologiyada injektsion metodikalar va zamonaviy texnologiyalarni o‘rganish.",
+      "points": [
+        "Injektsion metodikalar (botoks, filller) bilan tanishish",
+        "Lipotolitik terapiyaning asoslari",
+        "Karboksiterapiya texnikasi",
+        "Papillomalar bilan ishlash va ularni olib tashlash",
+        "Mezoterapiya va uning qo‘llanilishi",
+        "Kosmetsevtik vositalardan foydalanish",
+        "Akne va yara izlarini davolash va profilaktika qilish",
+        "Kursni yakunlash va parvarish bo‘yicha tavsiyalar"
+      ]
+    }
+  },
+  "ModulesHijama": {
+    "CourseProgram": "Kurs dasturi",
+    "Module": "Modul",
+    "Duration": "7 kun",
+    "DurationText": "kurs davomiyligi",
+    "FindOutCost": "Narxni bilish",
+    "module1": {
+      "title": "Hidjama va zulukga kirish",
+      "description": "Hidjamaga va yolg‘izlarni qo‘llashning nazariyasi va amaliyoti asoslari. Kalit nuqtalarni o‘rganish va protseduralarga tayyorgarlik.",
+      "points": [
+        "Hidjama va zulukning tarixi va nazariyasi",
+        "Hidjama yordamida sog‘liqni saqlashning asosiy prinsiplari",
+        "Nuqtaviy davolash uchun fiziologiya va anatomiya",
+        "Hidjama uchun kalit nuqtalarni o‘rganish",
+        "Protseduraga psixologik tayyorgarlik",
+        "Hidjamada gigienik jihatlar va xavfsizlik",
+        "Hidjama va zuluk uchun asbob-uskunalarni tayyorlash",
+        "Bemorlar bilan ishlashda etika va professional xulq-atvor"
+      ]
+    },
+    "module2": {
+      "title": "Hidjamaning amaliy qo‘llanilishi",
+      "description": "Turli tana qismlari va bemor holatlari uchun hidjama texnikalarini o‘rganish.",
+      "points": [
+        "Nam va quruq hidjamaning metodikasi",
+        "Kasallikka qarab nuqtalarni tanlash",
+        "Sunna bo‘yicha kalit nuqtalar bilan ishlash",
+        "Yuz va bosh hududlari uchun hidjama",
+        "Soch kesish zaruratisiz hidjama",
+        "Yirtiqni to‘g‘ri qo‘yish texnikasi",
+        "Tibbiy idishlardan hidjama uchun foydalanish",
+        "Protseduradan oldin va keyin teri parvarishi"
+      ]
+    },
+    "module3": {
+      "title": "Yolg‘izlar bilan ishlash (zuluk)",
+      "description": "Yolg‘izlarni qo‘yish amaliyoti va ularni sog‘liqni saqlash protseduralari doirasida ishlash xususiyatlari.",
+      "points": [
+        "Yolg‘izlardan foydalanishning asosiy prinsiplari",
+        "Protsedura uchun yolg‘izlarni tanlash va tayyorlash",
+        "Yolg‘izlarni tana turli qismlariga qo‘yish texnikasi",
+        "Hidjama va yolg‘iz terapiyasini birlashtirish",
+        "Yolg‘iz terapiyasidan keyin teri parvarishi qoidalari",
+        "Protseduralardan keyin ovqatlanish va tiklanish bo‘yicha tavsiyalar",
+        "Yolg‘izlardan foydalanishning xavf va qarshi ko‘rsatkichlari",
+        "Protseduralarni davom ettirish bo‘yicha umumiy tavsiyalar"
+      ]
+    },
+    "module4": {
+      "title": "Yakuny bosqich va sertifikatsiya",
+      "description": "Protsedurani baholash, sertifikatsiya, savollarga javob berish va amaliyotni davom ettirish bo‘yicha tavsiyalar.",
+      "points": [
+        "Bilim va amaliy ko‘nikmalarni tekshirish",
+        "Har bir talabadan natijalar va yutuqlarni tahlil qilish",
+        "Protseduralar bo‘yicha tez-tez beriladigan savollarga javoblar",
+        "Maxsus bemor holatlari bilan ishlash bo‘yicha maslahatlar",
+        "Professional amaliyot bo‘yicha yakuniy tavsiyalar",
+        "Sertifikatsiya va tamomlaganlik hujjatlarini berish",
+        "Hidjama nuqtalari bo‘yicha kitob sovg‘asi",
+        "Mavzu bo‘yicha qo‘shimcha resurslar va adabiyotlar tahlili"
+      ]
+    }
+  },
+  "ModulesNurse": {
+    "CourseProgram": "Kurs dasturi",
+    "Module": "Modul",
+    "Duration": "1 oy",
+    "DurationText": "kurs davomiyligi",
+    "FindOutCost": "Narxni bilish",
+    "module1": {
+      "title": "Hamshiralik asoslari va anatomiya",
+      "description": "Inson tanasining ishlashini tushunish uchun hamshiralik asoslari, tarixi va anatomiyasini o‘rganish.",
+      "points": [
+        "Hamshira kasbining tarixi va ahamiyati",
+        "Inson anatomiyasi va fiziologiyasi",
+        "Organlar va tana tizimlarining tuzilishini o‘rganish",
+        "Tibbiy amaliyotda hamshiraning rollarini tushunish",
+        "Gigiena va infeksiya nazorati asosiy tamoyillari",
+        "Hayotiy muhim ko‘rsatkichlarni o‘lchashga tayyorgarlik",
+        "Bemorlar bilan tibbiy yordam tashkil etish va parvarishlash",
+        "Bemorlar bilan muloqot va tibbiyotda etik"
+      ]
+    },
+    "module2": {
+      "title": "Hayotiy muhim ko‘rsatkichlarni o‘lchash va birinchi yordam",
+      "description": "Qon bosimini, pulsni o‘lchash va birinchi yordam ko‘rsatish amaliyoti.",
+      "points": [
+        "Qon bosimini o‘lchash usullari",
+        "Pulsni va yurak urish tezligini o‘lchash",
+        "Gipertoniyaga va gipotoniyaga birinchi yordam",
+        "Gipertermiya (yuqori harorat) holatida yordam ko‘rsatish",
+        "Anemiya diagnostikasi va davolash",
+        "Yurak-qon tomir kasalliklarida birinchi yordam",
+        "Nafas olish kasalliklari bo‘yicha bemorlarni parvarishlash",
+        "Uy sharoitida tibbiy dasturxonni qo‘llash"
+      ]
+    },
+    "module3": {
+      "title": "In'ektsiyalar va davolash protseduralari",
+      "description": "Venoz va ichki mushak in'ektsiyalari kabi turli tibbiy protseduralar va in'ektsiyalarni o‘rganish.",
+      "points": [
+        "Venoz va ichki mushak in'ektsiyalarini bajarish texnikasi",
+        "Teriga in'ektsiyalar va pupa hududiga in'ektsiyalar",
+        "Bankalar va sinovchilarni qo‘llash",
+        "Turli kasalliklarni davolash uchun klizma qo‘llash",
+        "Migreni va radikulitga yordam ko‘rsatish",
+        "Yallig‘lanish va jarohatlar holatida yordam ko‘rsatish",
+        "Dori-darmonlarni kiritish bo‘yicha tavsiyalar",
+        "Tibbiy asbob-uskunalarni ishlatish qoidalari"
+      ]
+    },
+    "module4": {
+      "title": "Maxsus tibbiy holatlar va bemorlarni parvarishlash",
+      "description": "Kasalliklarni diagnostika qilish usullari va maxsus holatlarda yordam ko‘rsatish metodlarini o‘rganish.",
+      "points": [
+        "Belgilarga va organlarga qarab kasalliklarni diagnostika qilish",
+        "Diyabetik koma holatida birinchi yordam",
+        "Anafaylitik shokda yordam ko‘rsatish",
+        "Quramoq va hayvon chayqalishlariga birinchi yordam",
+        "Ayol kasalliklari bo‘yicha bemorlarni parvarishlash",
+        "Suvga cho‘zilganlarni qutqarish usullari",
+        "Sog‘liqni saqlashda hamshiraning roli",
+        "Yakuny imtihon va sertifikatsiya"
+      ]
+    }
+  },
+  "AboutCosm": {
+    "title": "Kurs haqida",
+    "subtitle": "Kosmetologiya",
+    "description": {
+      "part1": "\"Kosmetologiya\" kursi terini parvarishlashning asosiy va ilg'or usullarini, kosmetik mahsulotlarni ishlab chiqishni, shuningdek teri holatini yaxshilash bo'yicha protseduralarni o'rganishni istaganlar uchun mo'ljallangan. Siz massaj texnikalari, turli kosmetik maska va kremlarni tayyorlashni, shuningdek mezoterapiya va botoks kabi zamonaviy protseduralarni o'rganasiz.",
+      "part2": "Kurs 20 kun davom etadi va nazariy darslar bilan amaliy ishlarni o'z ichiga oladi, bu ishtirokchilarga olingan bilimlarni darhol qo'llash imkonini beradi. Kurs tugagach, siz sertifikat va kosmetologiya sohasida ishlash uchun zarur bo'lgan ko'nikmalarga ega bo'lasiz."
+    },
+    "requestTitle": "Kursga yozilish"
+  },
+  "AboutHijama": {
+    "title": "Kurs haqida",
+    "subtitle": "Hijoma va zuluq",
+    "description": {
+      "part1": "\"Hijoma va zuluq\" kursi hidjomaning va sut emizuvchilarining an'anaviy davolash usullarini chuqur o'rganmoqchi bo'lganlar uchun mo'ljallangan. Ushbu kurs nazariy asoslar bilan bir qatorda, hidjomani va zuluqni turli kasalliklarni davolashda to'g'ri qo'llashga yordam beradigan amaliy metodlarni qamrab oladi.",
+      "part2": "Kurs doirasida siz tana ustida asosiy nuqtalarni aniqlashni, har bir bemor uchun individual dasturlar ishlab chiqishni, shuningdek hidjomani boshqa sog'liqni saqlash usullari bilan qanday kombinatsiyalashni o'rganasiz.",
+      "part2Extended": "Kurs to'rt moduldan iborat bo'lib, har biri hidjoma va zuluqning turli jihatlarini har tomonlama o'rganishga qaratilgan. Kurs tugagach, siz sertifikat va hidjoma nuqtalari bo'yicha maxsus qo'llanmani olasiz."
+    },
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Hijoma va zuluq kursi haqida tasvir"
+  },
+  "AboutNurse": {
+    "title": "Kurs haqida",
+    "subtitle": "Hamshiralik",
+    "description": {
+      "part1": "\"Hamshiralik\" (Meditsinskaya Xizmat) kursi tibbiy parvarishlash va birinchi yordam asoslarini o'zlashtirmoqchi bo'lganlar uchun tayyorlangan. Kurs doirasida anatomiya va hayotiy muhim ko'rsatkichlarni o'lchash usullari bilan boshlanib, turli kasalliklar va holatlarda yordam ko'rsatish texnikalariga qadar muhim mavzular ko'rib chiqiladi.",
+      "part2": "Malakali mutaxassislar rahbarligida talabalar nazariy bilimlar va amaliy ko'nikmalarni egallab, tibbiy parvarishlash sohasida ishlashga yordam beradi. Kurs bir oy davom etadi va yakuniy imtihon bilan yakunlanadi, shundan so'ng ishtirokchilar sertifikatga ega bo'ladilar.",
+      "part2Extended": "Kurs ishtirokchilari tajribali instruktorlarning qo'llab-quvvatlashi va eng dolzarb tibbiy mavzular bo'yicha o'quv imkoniyatiga ega bo'ladilar."
+    },
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Hamshiralik kursi haqida tasvir"
+  },
+  "BannerShrot": {
+    "title": "SHROT terapiya kursi",
+    "description": "BabySun klinikasi sholyozni davolash uchun SHROT terapiya metodikasini egallamoqchi bo'lgan mutaxassislar uchun kurslar o'tkazadi.",
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Kurslar banner fotoretriyasi"
+  },
+  "BannerCosm": {
+    "title": "Kosmetologiya kursi",
+    "description": "Terini parvarishlashning asosiy tamoyillarini o'rganing, teri parvarishi usullari, massaj texnikalari, kosmetik vositalarni tayyorlash va boshqa professional ko'nikmalarni qamrab olgan kurs bilan.",
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Kosmetologiya kursi banner fotoretriyasi"
+  },
+  "BannerHijama": {
+    "title": "Hijoma va zuluq kursi",
+    "description": "Bemorlarga sog'liqni yaxshilash uchun hijomani va sut emizuvchilar bilan ishlash metodlarini egallamoqchi bo'lgan mutaxassislar uchun kurslar.",
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Hijoma va zuluq kursi banner fotoretriyasi"
+  },
+  "BannerNurse": {
+    "title": "Hamshiralik kursi",
+    "description": "Kurs sizni hamshiralik ishi uchun tayyorlaydi. Siz bemorni parvarish qilish, birinchi yordam va tez-tez uchraydigan kasalliklarni tashxislash asoslarini o'rganasiz.",
+    "requestTitle": "Kursga yozilish",
+    "imageAlt": "Medsestryora kursi banner fotoretriyasi"
+  },
+  "List": {
+    "title": "Jarrohlik",
+    "description": "BabySun-da yangi usullar qo‘llanilib, yuqori texnologik jarrohlik amaliyotlari amalga oshiriladi. 16 yillik tajribaga ega jarroh kattalar va bolalar uchun keng ko‘lamli xizmatlarni taklif qiladi.",
+    "services": {
+      "service1": {
+        "title": "Tirnoqni olib tashlash (panaritsiy, paronixiya)",
+        "description": "Yallig‘lanish va infeksiyalarni davolash uchun zararlangan tirnoqni minimal invaziv olib tashlash",
+        "price": "Individual narx"
       },
-      "ismoilova": {
-        "fullname": "Zarifa Ismoilova Abduvohid qizi",
-        "speciality": [
-          "Massaj"
-        ]
+      "service2": {
+        "title": "Furunkul, karbunkulni ochish",
+        "description": "Infeksiyani bartaraf etish va tezda shifo berish uchun furunkul va karbunkullarni ochish amaliyoti",
+        "price": "Individual narx"
+      },
+      "service3": {
+        "title": "Bog‘lam qo‘yish",
+        "description": "Jarohatlarni davolash va himoya qilish uchun bog‘lamni professional qo‘yish va almashtirish",
+        "price": "Individual narx"
+      },
+      "service4": {
+        "title": "Jarohatlarni ishlov berish",
+        "description": "Turli jarohatlarni professional dezinfeksiya qilish va ishlov berish",
+        "price": "Individual narx"
+      },
+      "service5": {
+        "title": "Abstsess (flegmona)ni ochish",
+        "description": "Abstsess yoki flegmonani jarrohlik usulida ochish va yallig‘lanishni kamaytirish",
+        "price": "Individual narx"
+      },
+      "service6": {
+        "title": "Quloq bo‘lmachasi tikish",
+        "description": "Jarohatlar va shikastlanishlardan so‘ng quloq bo‘lmachasini tiklash",
+        "price": "Individual narx"
+      },
+      "service7": {
+        "title": "Ateromani olib tashlash",
+        "description": "Ateroma (yog‘ kisti)ni minimal invaziv usulda olib tashlash",
+        "price": "Individual narx"
+      },
+      "service8": {
+        "title": "Kindik granulatsiyalarini olib tashlash",
+        "description": "Kindik sohasidagi fibroz to‘qimalarni olib tashlash",
+        "price": "Individual narx"
+      },
+      "service9": {
+        "title": "Tug‘ma siydik chiqarish kanalining nuqsonini tuzatish (meatostenoz)",
+        "description": "Tug‘ma siydik chiqarish kanalining torayishini jarrohlik usulida tuzatish",
+        "price": "Individual narx"
+      },
+      "service10": {
+        "title": "Sunnat qilish",
+        "description": "Bolalar uchun sunnat qilish jarayoni",
+        "price": "Individual narx"
+      },
+      "service11": {
+        "title": "Tilning qisqa uzukchasini tuzatish",
+        "description": "Nutq va yutishni yaxshilash uchun til uzukchasini jarrohlik usulida tuzatish",
+        "price": "Individual narx"
+      },
+      "service12": {
+        "title": "Polidaktiliya va quloq chiqindilarini olib tashlash",
+        "description": "Qo‘shimcha barmoqlar va quloq chiqindilarini olib tashlash",
+        "price": "Individual narx"
+      },
+      "service13": {
+        "title": "Dumg‘aza kistasini ochish",
+        "description": "Dumg‘aza kistasini jarrohlik usulida ochish va drenaj qilish",
+        "price": "Individual narx"
+      },
+      "service14": {
+        "title": "Gidradenitni ochish",
+        "description": "Yallig‘langan gidradenitni ochish jarayoni",
+        "price": "Individual narx"
+      },
+      "service15": {
+        "title": "Tirnoq qirrasi plastikasi",
+        "description": "Noqulaylikni bartaraf etish uchun tirnoq qirrasini jarrohlik yo‘li bilan tuzatish",
+        "price": "Individual narx"
+      },
+      "service16": {
+        "title": "Papillomani olib tashlash",
+        "description": "Papillomani minimal invaziv usulda olib tashlash",
+        "price": "Individual narx"
+      },
+      "service17": {
+        "title": "Kontagioz mollyuskni olib tashlash",
+        "description": "Kontagioz mollyusk kabi yaxshi tabiatli ko‘paymalarni olib tashlash",
+        "price": "Individual narx"
+      },
+      "service18": {
+        "title": "Mozol va siğillarni olib tashlash",
+        "description": "Mozol va siğillarni olib tashlash jarayoni",
+        "price": "Individual narx"
+      },
+      "service19": {
+        "title": "Mastitni ochish",
+        "description": "Mastitni ochish va drenaj qilish",
+        "price": "Individual narx"
+      },
+      "service20": {
+        "title": "Paraproktitni ochish",
+        "description": "Paraproktitni jarrohlik usulida ochish va yiringni olib tashlash",
+        "price": "Individual narx"
+      },
+      "service21": {
+        "title": "Lipomani olib tashlash",
+        "description": "Yog‘ o‘simtasini (lipoma) olib tashlash",
+        "price": "Individual narx"
+      },
+      "service22": {
+        "title": "Tovon osti ignasiga in'eksiya",
+        "description": "Tovon osti ignasi sohasida og‘riqni kamaytirish uchun in'eksiya",
+        "price": "Individual narx"
+      },
+      "service23": {
+        "title": "Nazogastral zond o‘rnatish",
+        "description": "Ovqatlanish yoki dori-darmon uchun burun orqali zond o‘rnatish",
+        "price": "Individual narx"
+      },
+      "service24": {
+        "title": "Siydik kateteri o‘rnatish",
+        "description": "Siydikni chiqarish uchun kateter o‘rnatish",
+        "price": "Individual narx"
+      },
+      "service25": {
+        "title": "Kolopriemnikni (stoma) almashtirish",
+        "description": "Kolostoma bilan bemorlar uchun kolopriemnikni almashtirish",
+        "price": "Individual narx"
+      },
+      "service26": {
+        "title": "Kondilom va nevuslarni olib tashlash",
+        "description": "Kondilom va nevuslar kabi yaxshi tabiatli teri o‘simtalarini olib tashlash",
+        "price": "Individual narx"
       }
     }
+  },
+  "ListChild": {
+    "title": "Bolalar uchun massaj",
+    "description": "1 oydan 18 yoshgacha bo'lgan bolalar uchun professional bolalar massaji va terapevtik protseduralar, jismoniy holatni va umumiy sog'liqni yaxshilashga qaratilgan.",
+    "services": {
+      "service1": {
+        "title": "Bolalar uchun massaj",
+        "description": "1 oydan 15 yoshgacha o'g'il bolalar va 18 yoshgacha qizlar uchun professional massaj",
+        "price": "Individual narx"
+      },
+      "service2": {
+        "title": "Parafin terapiyasi",
+        "description": "Qonni aylantirishni yaxshilash va mushaklarning tarangligini kamaytirish uchun parafin ishlatadigan terapiya",
+        "price": "Individual narx"
+      },
+      "service3": {
+        "title": "Elektroforez",
+        "description": "Dorivor moddalarni elektr tokidan foydalanib teri orqali kiritadigan fizioterapiya usuli",
+        "price": "Individual narx"
+      },
+      "service4": {
+        "title": "Gidrovanna",
+        "description": "Dam olish va immun tizimini mustahkamlash uchun suv protseduralari",
+        "price": "Individual narx"
+      },
+      "service5": {
+        "title": "Darsontval",
+        "description": "Qonni aylantirishni yaxshilash va teridagi almashinuv jarayonlarini stimulyatsiya qilish uchun apparatli protsedura",
+        "price": "Individual narx"
+      },
+      "service6": {
+        "title": "UCH terapiyasi",
+        "description": "Yallig'lanishni kamaytirish va tiklanish jarayonini tezlashtirish uchun yuqori chastotali terapiya",
+        "price": "Individual narx"
+      },
+      "service7": {
+        "title": "Qurtlarga qarshi protsedura",
+        "description": "Bolalardan parazitlarni yo'qotishga qaratilgan protseduralar to'plami",
+        "price": "Individual narx"
+      },
+      "service8": {
+        "title": "Enurez davolash",
+        "description": "Bolalarda siydik tutmaslikni davolash uchun protseduralar",
+        "price": "Individual narx"
+      }
+    }
+  },
+  "ListCosmetology": {
+    "title": "Kosmetologiya",
+    "description": "Professional kosmetolog yuz terisini parvarishlash uchun kompleks protseduralarni taklif etadi, bu uning holatini yaxshilashga va porloq ko'rinishini qaytarishga yordam beradi.",
+    "services": {
+      "service1": {
+        "title": "Kosmetologik ko‘rik",
+        "description": "Terining holatini baholash va optimal parvarishlashni tanlash uchun kompleks diagnostika",
+        "price": "Individual narx"
+      },
+      "service2": {
+        "title": "Yuzni pilinglash",
+        "description": "Terini yangilash va uning tuzilishini yaxshilash uchun tozalovchi protsedura",
+        "price": "Individual narx"
+      },
+      "service3": {
+        "title": "Yuz massaji",
+        "description": "Qonni aylantirishni yaxshilash va teri tonusini oshirish uchun dam olish massaji",
+        "price": "Individual narx"
+      },
+      "service4": {
+        "title": "Yuzni tozalash",
+        "description": "Teridagi iflosliklarni yo'qotish va uning holatini yaxshilash uchun chuqur tozalash",
+        "price": "Individual narx"
+      },
+      "service5": {
+        "title": "Karboxiterapiya",
+        "description": "Terini uglerod dioksid bilan to'ldirish protsedurasi, bu uning rangini va elastikligini yaxshilaydi",
+        "price": "Individual narx"
+      }
+    }
+  },
+  "ListOrthopedics": {
+    "title": "Ortopediya",
+    "description": "Toshkent klinikasi ToshPMI ning bolalar ortopediyasi va travmatologiya bo‘limida 18 yildan ortiq tajribaga ega yuqori kategoriyali ortoped. Faoliyati davomida minglab operatsiyalar va konservativ davolash usullarini o'tkazdi.",
+    "services": {
+      "service1": {
+        "title": "Tizzaning displaziyasi",
+        "description": "Bolalarda tizzaning displaziyasini diagnostika qilish va davolash",
+        "price": "Individual narx"
+      },
+      "service2": {
+        "title": "Valgus deformatsiyasi",
+        "description": "Bolalarda oyoq valgus deformatsiyasini davolash",
+        "price": "Individual narx"
+      },
+      "service3": {
+        "title": "Tekis oyoq",
+        "description": "Bolalarda tekis oyoqni diagnostika qilish va tuzatish",
+        "price": "Individual narx"
+      },
+      "service4": {
+        "title": "Tana holatining buzilishi",
+        "description": "Umumiy sog‘liqni yaxshilash va umurtqa pog‘onasining salomatligini yaxshilash uchun tana holatining buzilishlarini tuzatish va davolash",
+        "price": "Individual narx"
+      }
+    }
+  },
+  "ListSpaWomen": {
+    "title": "SPA ayollar uchun",
+    "description": "Zarina Ismailova, 2024 yilda o'qish tajribasiga ega bo'lgan ikki ta sertifikatga ega malakali massaj mutaxassisi, ayollar uchun keng qamrovli SPA protseduralarni taklif etadi.",
+    "services": {
+      "service1": {
+        "title": "Relaks-massaj",
+        "description": "Stressni bartaraf etish va farovonlikni yaxshilash uchun dam olish massaji",
+        "price": "Individual narx"
+      },
+      "service2": {
+        "title": "Asali massaj",
+        "description": "Terining holatini yaxshilash va umumiy tonusini oshirish uchun tabiiy asal ishlatadigan protsedura",
+        "price": "Individual narx"
+      },
+      "service3": {
+        "title": "Qopqoqli massaj",
+        "description": "Qon aylanishini yaxshilash uchun vakuum qopqoqlari bilan terapevtik massaj",
+        "price": "Individual narx"
+      },
+      "service4": {
+        "title": "Sog‘lomlashtiruvchi massaj",
+        "description": "Sog‘liqni mustahkamlash va immunitetni oshirish uchun kompleks massaj",
+        "price": "Individual narx"
+      },
+      "service5": {
+        "title": "Anti-sellulit massaj",
+        "description": "Tana hajmini kamaytirish va sellulit bilan kurashish uchun massaj",
+        "price": "Individual narx"
+      },
+      "service6": {
+        "title": "Stone-massaj",
+        "description": "Qon aylanishini yaxshilash va chuqur dam olish uchun issiq toshlar bilan massaj",
+        "price": "Individual narx"
+      },
+      "service7": {
+        "title": "Olovli massaj",
+        "description": "Zo‘rg‘onlikni bartaraf etish va energiyani tiklash uchun olov ishlatadigan ekzotik massaj",
+        "price": "Individual narx"
+      },
+      "service8": {
+        "title": "Nevrologik massaj",
+        "description": "Asab tizimini dam olish va taranglikni kamaytirish uchun massaj",
+        "price": "Individual narx"
+      },
+      "service9": {
+        "title": "Bosh, bo'yin va qo'llarni massaj",
+        "description": "Bosh, bo'yin va qo'l sohalarida qon aylanishini yaxshilash va taranglikni kamaytirish uchun massaj",
+        "price": "Individual narx"
+      },
+      "service10": {
+        "title": "Qorin, bel va oyoqlarni massaj",
+        "description": "Qorin, bel va oyoqlar zonasidagi organlar faoliyatini yaxshilash va mushak tarangligini kamaytirish uchun massaj",
+        "price": "Individual narx"
+      },
+      "service11": {
+        "title": "Limfodrenaj massaj",
+        "description": "Limfa oqimini yaxshilash va shishlarni kamaytirish uchun massaj",
+        "price": "Individual narx"
+      }
+    }
+  },
+  "Benefit": {
+    "sectionTitle": "Metodikalar afzalliklari",
+    "benefitIconAlt": "{{index}}-afzallik ikonasi",
+    "benefit1": {
+      "title": "Tez tiklanish",
+      "description": "Minimal invaziv usullar qisqa muddatli reabilitatsiyani ta'minlaydi"
+    },
+    "benefit2": {
+      "title": "Individual yondashuv",
+      "description": "Har bir metodika ma'lum bir bemorning xususiyatlariga moslashtiriladi, bu maksimal natijaga erishishga imkon beradi"
+    },
+    "benefit3": {
+      "title": "Minimal xavf",
+      "description": "Zamonaviy texnologiyalarning qo'llanilishi har bir protseduraning xavfsizligi va samaradorligini kafolatlaydi"
+    },
+    "benefit4": {
+      "title": "Yuqori samaradorlik",
+      "description": "Eng yangi metodikalar qisqa muddatlarda ajoyib natijalarga erishish imkonini beradi, bemorlarning hayot sifatini yaxshilaydi"
+    }
+  },
+  "BenefitChild": {
+    "sectionTitle": "Bolalar massajining afzalliklari",
+    "benefitIconAlt": "Afzallik ikonkasi {index}",
+    "benefit1": {
+      "title": "Kompleks yondashuv",
+      "description": "Massaj, parafinoterapiya va UVQ kabi turli protseduralarni o'z ichiga oladi, kompleks sog'lomlash uchun"
+    },
+    "benefit2": {
+      "title": "Professional g'amxo'rlik",
+      "description": "Bolalar bilan ishlash tajribasiga ega mutaxassislar maksimal qulaylik va xavfsizlikni ta'minlaydi"
+    },
+    "benefit3": {
+      "title": "Individuallashtirilgan dasturlar",
+      "description": "Davolash va massaj dasturlari har bir bolaning yoshi va sog'liq xususiyatlariga moslashtirilgan"
+    },
+    "benefit4": {
+      "title": "Sog'liqni mustahkamlash",
+      "description": "Protseduralar umumiy holatni yaxshilash, immun tizimini mustahkamlash va sog'liqni qo'llab-quvvatlashga qaratilgan"
+    }
+  },
+  "BenefitCosm": {
+    "sectionTitle": "Kosmetologiyaning afzalliklari",
+    "benefitIconAlt": "Afzallik ikonkasi {index}",
+    "benefit1": {
+      "title": "Shaxsiy yondashuv",
+      "description": "Har bir protsedura mijozning teri holati va turiga qarab eng yaxshi natijalarga erishish uchun tanlanadi"
+    },
+    "benefit2": {
+      "title": "Yuqori sifatli materiallar",
+      "description": "Protseduralar xavfsizligini ta'minlash uchun sertifikatlangan va xavfsiz materiallardan foydalanish"
+    },
+    "benefit3": {
+      "title": "Zamonaviy metodikalar",
+      "description": "Teri holatini yaxshilash uchun eng yangi texnologiyalar va texnikalardan foydalanish"
+    },
+    "benefit4": {
+      "title": "Teri sog'ligi va go'zalligi",
+      "description": "Protseduralar teri rangini, elastikligini va sog'ligini yaxshilashga qaratilgan"
+    }
+  },
+  "BenefitOrto": {
+    "sectionTitle": "Ortopediya afzalliklari",
+    "benefitIconAlt": "Afzallik ikonkasi {index}",
+    "benefit1": {
+      "title": "Ko'p yillik tajriba",
+      "description": "Ortopediya va travmatologiyada 18 yildan ortiq tajriba, minglab o‘tkazilgan operatsiyalar va protseduralar"
+    },
+    "benefit2": {
+      "title": "Shaxsiy yondashuv",
+      "description": "Har bir davolash har bir bemorning o‘ziga xos xususiyatlariga moslashtirilgan bo‘lib, eng yaxshi natijalarga erishish imkonini beradi"
+    },
+    "benefit3": {
+      "title": "Zamonaviy usullar",
+      "description": "Maksimal samaradorlikka erishish uchun eng yangi diagnostika va davolash usullarini qo‘llash"
+    },
+    "benefit4": {
+      "title": "Xavfsizlik va komfort",
+      "description": "Har bir bemor uchun protseduralar xavfsizligi va komfortini ta'minlashga diqqat bilan e'tibor qaratish"
+    }
+  },
+  "BenefitSpa": {
+    "sectionTitle": "Ayollar uchun SPA afzalliklari",
+    "benefitIconAlt": "Afzallik ikonkasi {index}",
+    "benefit1": {
+      "title": "Professional yondashuv",
+      "description": "Ikki sertifikatga ega tajribali mutaxassis yuqori darajadagi xizmatni kafolatlaydi"
+    },
+    "benefit2": {
+      "title": "Individual dasturlar",
+      "description": "Mijozning individual ehtiyojlari va afzalliklarini hisobga olgan holda protseduralarni tanlash"
+    },
+    "benefit3": {
+      "title": "Dam olish va tiklanish",
+      "description": "Protseduralar stressni kamaytirish, kayfiyatni yaxshilash va energiyani tiklashga qaratilgan"
+    },
+    "benefit4": {
+      "title": "Tabiiy mahsulotlardan foydalanish",
+      "description": "Terining va tananing holatini yaxshilash uchun asal, toshlar va yog'lar kabi tabiiy komponentlardan foydalanish"
+    }
   }
+}

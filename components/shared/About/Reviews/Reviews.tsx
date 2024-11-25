@@ -9,77 +9,49 @@ interface Props {
 
 const reviews = [
   {
-    nickname: "maria_nosachevaa",
+    nickname: "aziza_officiiaal",
     date: "16.11.2021",
-    review:
-      "Наконец-то нашли !!! Именно так хочется начать писать о ШРОТ методе и о Александре, очень грамотном терапевте...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
+    review: "Aynan bu klinikani tanlab adashmadim manga bemalol ishonuvrila qizla",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
     social: "instagram",
   },
   {
-    nickname: "senshinanatali",
-    date: "16.11.2021",
-    review:
-      "Спасибо Александр за ваши тренировки, индивидуальную программу, эмоциональную поддержку...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
-    social: "instagram",
-  },
-  {
-    nickname: "_zhukova_e",
-    date: "16.11.2021",
-    review:
-      "Позанимались 10 занятий , не жалеем потраченного времени и денежных средств...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
-    social: "instagram",
-  },
-  {
-    nickname: "_kidakoeva_",
+    nickname: "muxlisaturgunova1409",
     date: "19.11.2021",
-    review:
-      "Спасибо большое, Александр, за проделанную работу. Не зря мне Вас порекомендовали...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
+    review: "Sharoitla zo'r 👏👏👏 hammasidanam bolalaga o'yin qilib boplapsila 👍👍👍",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
     social: "instagram",
   },
   {
-    nickname: "helenbelsev14",
+    nickname: "Zilola Nishonova",
     date: "16.11.2021",
-    review: "Хороший специалист вкладывает душу и хочет помочь👏",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
+    review: "Assalamualekum. Hamelaga kottakon rahmat. O'g'limi ikki kurs masaji tugadi. Natijalari ancha yaxshi. Rengendayam natijasi shundo bilindi. Bonupa alohida sizga kottakon rahmat. Vohli borseyam ilojni topb qberganizga. Ichlari ozi kevoti, harakatlari tez bob qogan, emelashga harakat qvomz. Nargizapamgayam alohida rahmat kasmetalog muolajala, maslahatlа uchun 😘😘😘.",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
     social: "instagram",
   },
   {
-    nickname: "voycenko_aigul",
+    nickname: "Мухлиса",
+    date: "19.11.2021",
+    review: "Assalomu alekum baby sun 🌻 jamoasiga. Biz bugun yana bir kurs massajlarimizni tugatvoldik. Har safar borganimizda ochiq cehra, huwmuomilalik bn kutib olasila. Har qanqa vaziyatdayam bollarni konglini birdek topib bollar bn bollarca muloq qilasila. Massaj oliwimizda oz iwini ustasi baby sun masteri mehribon, jonkuya, bollarni sevuvchi Munisa qizimi sevimli masteri Feruza opa.\n\nFeruza opa qigam massajlariz wifoli bosin. Wu massaj oliwimiz davomida qizim ozi ornidan turiwga harakatini bowladi azgina bosayam iwtahasi ocildi. Yomon tarafi endi Mazza qilib ovotkanida tugab qoldide. Hudo xoxlasa Yana yaqın kunlada borivlik nasib qisin. Baby sunga va Feruza opam Nargiza opa sizgaym raxmat.",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
+    social: "instagram",
+  },
+  {
+    nickname: "Karimahon Manzura",
+    date: "16.11.2021",
+    review: "Assalomu alaykum baby sun jamoasi. Farzandim uchun 10 kunlik bepul massaj yutib oldandim. Shogird bo’lishlariga qaramasdan katta masterladeka massaj qildila, o’g’limni injiqliklarini ko’tarib mehr bilan massaj qilganlari uchun Gulchehraga rahmat etmoqchiman. Alloh rozi bo’lsin, ilmlar ziyoda bo’lsin. O’g’lim opam dib ularga o’rganib qoldi. 😘😍😊👏👏👏🙌🙌",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
+    social: "instagram",
+  },
+  {
+    nickname: "Ummu Muhammadsodiq",
     date: "20.11.2021",
-    review:
-      "Александр, мы благодарим вас за вашу работу, отзывчивость и внимание...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
-    social: "instagram",
-  },
-  {
-    nickname: "jykova2021",
-    date: "17.11.2021",
-    review:
-      "Спасибо за проделанную работу, Александр знает толк в своём деле, результат виден через 10 занятий...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
-    social: "instagram",
-  },
-  {
-    nickname: "chebotarevajuliya",
-    date: "29.11.2021",
-    review:
-      "Хочу выразить благодарность Александру за то, что он принес эту чудесную методику в Краснодар...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
-    social: "instagram",
-  },
-  {
-    nickname: "zalinatimova",
-    date: "25.11.2021",
-    review:
-      "Здравствуйте, я мама Марииты, которая прошла долгий путь...",
-    link: "https://www.instagram.com/scolios_clinic_krd?igsh=M2ZuMjF3bXZ0M2pu",
+    review: "Assalamu alaykum rohmattullohi baby sunga omad haqiqatda zoor sila MawaaAlloh ❤️ jamoaialyam iwlaw uslubi bilan. Man qizim ga yaqinda muolaja oldim Juda yam hursandmiz 😄 Allohga wukur sila ni sabab qilib wiwfo oldik. Hamma jamoadigilaga kotta rahmat juda yam smimiyisila. Master imiz Zebo ga kegin Robiyahon ga alohida rahmat. Alloh rozi bolsin 🤲 hammeladan inwaaAlloh bowqa farzandlarim ni yam olib boriw niyatidamiz 🌹🌹.",
+    link: "https://www.instagram.com/stories/highlights/17989197019462526/",
     social: "instagram",
   },
 ];
+
 
 export const Reviews = ({ className }: Props) => {
   const t = useTranslations("Reviews");

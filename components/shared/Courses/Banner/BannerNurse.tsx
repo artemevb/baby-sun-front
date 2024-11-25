@@ -2,25 +2,28 @@ import React from "react";
 import { cn } from "@lib/utils";
 import { Request } from "../../Request/Request";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 interface Props {
   className?: string;
 }
 
 export const BannerNurse = ({ className }: Props) => {
+  const t = useTranslations("BannerNurse");
+
   return (
     <div className={cn("bg-[#F1F8FF] relative lgx:h-screen70", className)}>
-      <div className="w-full max-w-[1500px] max-lgx:mp-8 lgx:min-h-full absolute max-lgx:relative h-auto left-1/2 transform -translate-x-1/2 px-4 flex flex-col items-start justify-center gap-8">
+      <div className="w-full max-w-[1500px] max-lgx:mx-8 lgx:min-h-full absolute max-lgx:relative h-auto left-1/2 transform -translate-x-1/2 px-4 flex flex-col items-start justify-center gap-8">
         <div className="flex flex-col gap-4 w-full max-w-[400px]">
           <h1 className="text-[#009FE3] text-5xl font-bold leading-[55px] break-words custom-hyphens">
-            Курс по <br /> Медсестринству
+            {t("title")}
           </h1>
 
           <p className="text-[#494949] font-medium">
-            Курс подготовит вас к работе в сфере медсестринства. Вы научитесь основам ухода за пациентами, оказания первой помощи и диагностике распространенных заболеваний.
+            {t("description")}
           </p>
         </div>
-        <Request title="Записаться на курс" />
+        <Request title={t("requestTitle")} />
       </div>
 
       {/* Контейнер для изображения */}
@@ -47,3 +50,4 @@ export const BannerNurse = ({ className }: Props) => {
     </div>
   );
 };
+

@@ -47,6 +47,7 @@ import { cn } from "@lib/utils";
 import Image from "next/image";
 import { RequestAppointment } from "../../Request/RequestAppointment";
 import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 interface Props {
   className?: string;
@@ -186,11 +187,11 @@ export const Banner = ({ className }: Props) => {
                 />
               ) : (
                 // Render normal link and button for other banners
-                <a href={bannerData[currentSlide].link}>
+                <Link href={bannerData[currentSlide].link}>
                   <button className="bg-[#009FE3] text-white py-3 px-12 rounded-full hover:bg-[#006FCC] transition-all">
                     {bannerData[currentSlide].buttonName}
                   </button>
-                </a>
+                </Link>
               )}
             </motion.div>
           </AnimatePresence>
@@ -223,9 +224,8 @@ export const Banner = ({ className }: Props) => {
         {bannerData.map((_, index) => (
           <div key={index} className="w-[40px] bg-[#E4F1FF] h-[3px] overflow-hidden relative">
             <div
-              className={`absolute transition-all duration-0 -left-1/2 h-[3px] ${
-                index === currentSlide ? "w-full" : "w-1/3"
-              } bg-[#009FE3] ${currentSlide === index ? "line-anima" : ""}`}
+              className={`absolute transition-all duration-0 -left-1/2 h-[3px] ${index === currentSlide ? "w-full" : "w-1/3"
+                } bg-[#009FE3] ${currentSlide === index ? "line-anima" : ""}`}
             ></div>
           </div>
         ))}
