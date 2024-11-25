@@ -57,28 +57,9 @@ export default async function RootLayout({
   const { title, description, imageUrl, canonicalUrl } = seoData[locale];
   unstable_setRequestLocale(locale);
 
-  // Получаем сообщения для текущей локали
+
   const messages = await getMessages({ locale });
 
-  // Структурированные данные (schema.org)
-  // const schemaData = {
-  //   "@context": "https://schema.org",
-  //   "@type": "Organization",
-  //   name: "Baby sun",
-  //   url: siteUrl,
-  //   logo: imageUrl,
-  //   sameAs: [
-  //     "https://www.facebook.com/profile.php?id=61550487363700&mibextid=ZbWKwL",
-  //     "https://www.instagram.com/babysun_nat_bolalarklinikasi?igsh=OTZ1Z2Y1eDh6bWRq",
-  //   ],
-  //   contactPoint: {
-  //     "@type": "ContactPoint",
-  //     telephone: "+998 99 890 93 88",
-  //     contactType: "Customer Service",
-  //   },
-  // };
-
-  // <script type="application/ld+json">{JSON.stringify(schemaData)}</script>
 
   return (
     <html lang={locale}>
