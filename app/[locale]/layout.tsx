@@ -6,7 +6,6 @@ import { Header } from "@/components/shared/Header";
 import { Footer } from "@/components/shared/Footer/Footer";
 import "./globals.css";
 
-// Подключение Google Fonts (Raleway)
 const raleway = Raleway({
   subsets: ["latin", "cyrillic"],
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],

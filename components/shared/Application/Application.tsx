@@ -35,6 +35,7 @@ export const Application = ({ className }: Props) => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
+  // Обработчик изменения значений в текстовых полях
   const handleInputChange = (
     e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
     name: keyof FormState
@@ -45,6 +46,7 @@ export const Application = ({ className }: Props) => {
     }));
   };
 
+  // Обработчик изменения значения в Select
   const handleSelectChange = (
     e: SelectChangeEvent<string>,
     name: keyof FormState
@@ -55,6 +57,7 @@ export const Application = ({ className }: Props) => {
     }));
   };
 
+  // Обработчик отправки формы
   const handleSubmit = async () => {
     setIsSubmitting(true);
 
@@ -71,6 +74,15 @@ export const Application = ({ className }: Props) => {
     });
 
     try {
+      // 1. Отправка запроса для кнопки "route"
+      await fetch("https://baby-sun.uz/api/count?button=route", {
+        method: "POST",
+        headers: {
+          "API-Key": API_KEY,
+        },
+      });
+
+      // 2. Отправка данных формы
       const response = await fetch(API_URL, {
         method: "POST",
         headers: {

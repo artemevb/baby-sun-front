@@ -20,21 +20,28 @@ interface Props {
   title?: string;
 }
 
-export const RequestAppointment = ({ className, title = "Записаться" }: Props) => {
+export const RequestAppointment = ({
+  className,
+  title = "Записаться",
+}: Props) => {
   const t = useTranslations("");
   const [isOpen, setIsOpen] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
-  const [responseStatus, setResponseStatus] = useState<"success" | "error" | null>(null);
+  const [responseStatus, setResponseStatus] = useState<
+    "success" | "error" | null
+  >(null);
 
   // Данные формы
   const [formData, setFormData] = useState({
     fullname: "", // Имя пользователя
-    number: "",   // Номер телефона
-    service: "",  // Тип услуги
+    number: "", // Номер телефона
+    service: "", // Тип услуги
   });
 
   // Изменение значений в полях
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
@@ -42,16 +49,32 @@ export const RequestAppointment = ({ className, title = "Записаться" }
   // Отправка данных
   const handleSubmit = async () => {
     setIsLoading(true); // Включить лоадер
+
     try {
+      // Отправляем запрос для кнопки "route"
+      await axios.post(
+        "https://baby-sun.uz/api/count?button=route",
+        {},
+        {
+          headers: {
+            "API-Key":
+              "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
+          },
+        }
+      );
+
+      // Отправляем основную форму данных
       const response = await axios.post(
         "https://baby-sun.uz/api/application",
         formData,
         {
           headers: {
-            "API-Key": "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
+            "API-Key":
+              "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
           },
         }
       );
+
       if (response.status === 200) {
         setResponseStatus("success");
         setIsOpen(false);
@@ -60,7 +83,7 @@ export const RequestAppointment = ({ className, title = "Записаться" }
       }
     } catch (err) {
       setResponseStatus("error");
-      console.error(err);
+      console.error("Ошибка при отправке запроса:", err);
     } finally {
       setIsLoading(false); // Выключить лоадер
     }
@@ -129,7 +152,9 @@ export const RequestAppointment = ({ className, title = "Записаться" }
                   <Loader2 className="animate-spin" size={25} />
                   <span>{t("Main.Form.loading")}</span>
                 </div>
-              ) : `${t("Main.Form.submitButton")}`}
+              ) : (
+                `${t("Main.Form.submitButton")}`
+              )}
             </Button>
           </div>
         </DialogContent>

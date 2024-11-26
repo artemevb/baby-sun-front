@@ -42,16 +42,32 @@ export const Request = ({ className, title = "Записаться" }: Props) =>
   // Отправка данных
   const handleSubmit = async () => {
     setIsLoading(true); // Включить лоадер
+
     try {
+      // 1. Отправляем запрос для кнопки "route"
+      await axios.post(
+        "https://baby-sun.uz/api/count?button=route",
+        {},
+        {
+          headers: {
+            "API-Key":
+              "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
+          },
+        }
+      );
+
+      // 2. Отправляем основную форму данных
       const response = await axios.post(
         "https://baby-sun.uz/api/application",
         formData,
         {
           headers: {
-            "API-Key": "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
+            "API-Key":
+              "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
           },
         }
       );
+
       if (response.status === 200) {
         setResponseStatus("success");
         setIsOpen(false);
@@ -60,7 +76,7 @@ export const Request = ({ className, title = "Записаться" }: Props) =>
       }
     } catch (err) {
       setResponseStatus("error");
-      console.error(err);
+      console.error(err); // В случае ошибки отправим в консоль
     } finally {
       setIsLoading(false); // Выключить лоадер
     }
@@ -129,7 +145,9 @@ export const Request = ({ className, title = "Записаться" }: Props) =>
                   <Loader2 className="animate-spin" size={25} />
                   <span>{t("Main.Form.loading")}</span>
                 </div>
-              ) : `${t("Main.Form.submitButton")}`}
+              ) : (
+                `${t("Main.Form.submitButton")}`
+              )}
             </Button>
           </div>
         </DialogContent>
