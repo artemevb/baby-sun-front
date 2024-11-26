@@ -1,11 +1,12 @@
+// AboutDoctorsItem.tsx
 import React from 'react';
 import { cn } from '@lib/utils';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 
 interface Props {
   className?: string;
-  image: string | StaticImageData;  
+  image: string;
   fullname: string;
   speciality: string[];
   slug: string;
