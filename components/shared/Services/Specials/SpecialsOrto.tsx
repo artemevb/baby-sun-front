@@ -3,10 +3,10 @@ import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
-import doctor1 from '@/public/images/about/doctors/doctor.png';
-import doctor2 from '@/public/images/about/doctors/sagdullaeva.jpg';
-import doctor3 from '@/public/images/about/doctors/zarifa.jpg';
-import doctor4 from '@/public/images/about/doctors/azizov.jpg';
+import doctor1 from '../../../../public/images/about/doctors/doctor.png';
+import doctor2 from '../../../../public/images/about/doctors/sagdullaeva.jpg';
+import doctor3 from '../../../../public/images/about/doctors/zarifa.jpg';
+import doctor4 from '../../../../public/images/about/doctors/azizov.jpg';
 
 interface Props {
     className?: string;

@@ -3,8 +3,8 @@ import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
-import nargizaImage from '@/public/images/about/doctors/nargiza.jpg';
-import zarifaImage from '@/public/images/about/doctors/zarifa.jpg';
+import nargizaImage from '../../../../public/images/about/doctors/nargiza.jpg';
+import zarifaImage from '../../../../public/images/about/doctors/zarifa.jpg';
 
 interface Props {
     className?: string;
