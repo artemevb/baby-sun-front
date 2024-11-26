@@ -20,9 +20,7 @@ export default async function RootLayout({
   children: React.ReactNode;
   params: { locale?: string };
 }>) {
-  // Устанавливаем локаль для запроса
 
-  // SEO и OG данные для узбекского и русского языков
   const siteUrl = "https://baby-sun.uz";
 
   type Locales = "ru" | "uz";
@@ -52,7 +50,7 @@ export default async function RootLayout({
     },
   };
 
-  const locale: Locales = params?.locale === "uz" ? "uz" : "ru"; // Определяем локаль как 'ru' или 'uz'
+  const locale: Locales = params?.locale === "uz" ? "uz" : "ru";
 
   const { title, description, imageUrl, canonicalUrl } = seoData[locale];
   unstable_setRequestLocale(locale);
@@ -86,7 +84,30 @@ export default async function RootLayout({
         <meta name="twitter:title" content={title} />
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={imageUrl} />
-        {/* Структурированные данные (Schema.org) */}
+
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Baby sun",
+            "url": siteUrl,
+            "logo": `${siteUrl}/favicon.ico`,
+            "sameAs": [
+              "https://www.youtube.com/@babysunbybolalar.massaji",
+              "https://www.facebook.com/people/Nilufar-Shukrullayevna/pfbid02D1gS3K8vPPpYUfA6WkxNeJH6mzdKuq2YMKb7aETan9xLup5miNvC9WrxH5xDZH5fl/?mibextid=qi2Omg&rdid=apvvmhWHC9qyoxlr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FKFm7J2eZ84uXdKEq%2F%3Fmibextid%3Dqi2Omg",
+              "https://t.me/bolalarmassajibabysun",
+              "https://www.instagram.com/baby.sunnat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            ],
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+998777026688",
+              "areaServed": "UZ",
+              "availableLanguage": ["Uzbek", "Russian"],
+              "contactType": "Customer Service"
+            }
+          })}
+        </script>
+
         <title>{title}</title>
       </head>
       <body className={`${raleway.variable} antialiased`}>

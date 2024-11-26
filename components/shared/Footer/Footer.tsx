@@ -55,7 +55,7 @@ export const Footer = ({ className }: Props) => {
               />
 
             </a>
-            <a href="https://www.tiktok.com/@bolalarmassaji?_t=8qc1kdwsb1b&_r=1">
+            <a href="https://www.youtube.com/@babysunbybolalar.massaji">
               <Image
                 src={"/svg/footer/youtube.svg"}
                 width={100}
