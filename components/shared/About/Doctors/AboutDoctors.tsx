@@ -4,15 +4,15 @@ import { cn } from '@lib/utils';
 import { AboutDoctorsItem } from './AboutDoctorsItem';
 import { useTranslations } from 'next-intl';
 
-import kuchimovImg from '../../../../public/images/about/doctors/kuchimov.jpg';
-import abdullayevaImg from '../../../../public/images/about/doctors/nargiza.jpg';
-import muminovaImg from '../../../../public/images/about/doctors/doctor.png';
-import sagdullaevaImg from '../../../../public/images/about/doctors/sagdullaeva.jpg';
-import talipovaImg from '../../../../public/images/about/doctors/talipova.jpg';
-import ziganshinaImg from '../../../../public/images/about/doctors/ziganshina.jpg';
-import karimovaImg from '../../../../public/images/about/doctors/karimova.jpg';
-import ismoilovaImg from '../../../../public/images/about/doctors/zarifa.jpg';
-import azizovImg from '../../../../public/images/about/doctors/azizov.jpg';
+import kuchimovImg from '@/public/images/about/doctors/kuchimov.jpg';
+import abdullayevaImg from '@/public/images/about/doctors/nargiza.jpg';
+import muminovaImg from '@/public/images/about/doctors/doctor.png';
+import sagdullaevaImg from '@/public/images/about/doctors/sagdullaeva.jpg';
+import talipovaImg from '@/public/images/about/doctors/talipova.jpg';
+import ziganshinaImg from '@/public/images/about/doctors/ziganshina.jpg';
+import karimovaImg from '@/public/images/about/doctors/karimova.jpg';
+import ismoilovaImg from '@/public/images/about/doctors/zarifa.jpg';
+import azizovImg from '@/public/images/about/doctors/azizov.jpg';
 
 interface Props {
   className?: string;

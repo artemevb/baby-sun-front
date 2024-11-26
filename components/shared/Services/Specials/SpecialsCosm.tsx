@@ -4,7 +4,7 @@ import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
 
-import abdullayevaImg from '../../../../public/images/about/doctors/nargiza.jpg';
+import abdullayevaImg from '@/public/images/about/doctors/nargiza.jpg';
 interface Props {
     className?: string;
 }
