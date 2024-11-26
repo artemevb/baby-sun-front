@@ -3,25 +3,23 @@ import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
-import nargizaImage from '@/public/images/about/doctors/nargiza.jpg';
-import zarifaImage from '@/public/images/about/doctors/zarifa.jpg';
-
 interface Props {
     className?: string;
 }
 
 const doctors = [
     {
-        image: nargizaImage,
+        image: '/images/about/doctors/Nargiza.jpg',
         doctorKey: 'abdullayeva',
         slug: 'abdullayeva-nargiza-shukrullayevna',
     },
     {
-        image: zarifaImage, 
+        image: '/images/about/doctors/zarifa.jpg',
         doctorKey: 'ismoilova',
         slug: 'zarifa-ismoilova-abduvohid-qizi',
     }
 ];
+
 
 export const SpecialsSpa = ({ className }: Props) => {
     const t = useTranslations('SpecialsSpa');
@@ -36,7 +34,7 @@ export const SpecialsSpa = ({ className }: Props) => {
                     {doctors.map((doctor, index) => (
                         <AboutDoctorsItem
                             key={index}
-                            image={doctor.image} 
+                            image={doctor.image}
                             fullname={t(`${doctor.doctorKey}.fullname`)}
                             speciality={t.raw(`${doctor.doctorKey}.speciality`)}
                             slug={doctor.slug}

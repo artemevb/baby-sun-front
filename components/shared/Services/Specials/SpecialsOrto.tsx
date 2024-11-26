@@ -3,33 +3,28 @@ import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
-import doctor1 from '@/public/images/about/doctors/doctor.png';
-import doctor2 from '@/public/images/about/doctors/sagdullaeva.jpg';
-import doctor3 from '@/public/images/about/doctors/zarifa.jpg';
-import doctor4 from '@/public/images/about/doctors/azizov.jpg';
-
 interface Props {
     className?: string;
 }
 
 const doctors = [
     {
-        image: doctor1,
+        image: '/images/about/doctors/doctor.png',
         doctorKey: 'muminova',
         slug: 'muminova-madina-muminqizi',
     },
     {
-        image: doctor2,
+        image: '/images/about/doctors/sagdullaeva.jpg',
         doctorKey: 'sagdullayeva',
         slug: 'sagdullayeva-nilufar-shukrullayevna',
     },
     {
-        image: doctor3,
+        image: '/images/about/doctors/zarifa.jpg',
         doctorKey: 'ismoilova',
         slug: 'zarifa-ismoilova-abduvohid-qizi',
     },
     {
-        image: doctor4,
+        image: '/images/about/doctors/azizov.jpg',
         doctorKey: 'azizov',
         slug: 'azizov-abduhalil-abduqodirovich',
     },
