@@ -2,18 +2,21 @@ import React from "react";
 import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
+
+import kuchimovImg from '@public/images/about/doctors/kuchimov.jpg';
+import muminovaImg from '@public/images/about/doctors/doctor.png';
 interface Props {
   className?: string;
 }
 
 const doctors = [
   {
-    image: '/images/about/doctors/kuchimov.jpg',
+    image: kuchimovImg,
     doctorKey: 'kuchimov',
     slug: 'kuchimov-quvondiq-pirnazarovich',
   },
   {
-    image: '/images/about/doctors/doctor.png',
+    image: muminovaImg,
     doctorKey: 'muminova',
     slug: 'muminova-madina-muminqizi',
   }

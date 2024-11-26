@@ -3,13 +3,15 @@ import { cn } from "@lib/utils";
 import { AboutDoctorsItem } from "../../About/Doctors/AboutDoctorsItem";
 import { useTranslations } from 'next-intl';
 
+
+import abdullayevaImg from '@/public/images/about/doctors/nargiza.jpg';
 interface Props {
     className?: string;
 }
 
 const doctors = [
     {
-        image: '/images/about/doctors/nargiza.jpg',
+        image: abdullayevaImg,
         doctorKey: 'abdullayeva',
         slug: 'abdullayeva-nargiza-shukrullayevna',
     },
