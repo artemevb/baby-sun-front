@@ -1,4 +1,5 @@
 "use client";
+
 import { useState, ChangeEvent } from "react";
 import React from "react";
 import { cn } from "@lib/utils";
@@ -13,6 +14,8 @@ import {
 import { Button } from "@/components/ui";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { Response } from "../../shared/Request/Response"; // Ensure correct path
+
 
 interface Props {
   className?: string;
@@ -34,6 +37,10 @@ export const Application = ({ className }: Props) => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+
+  // Modal state
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalStatus, setModalStatus] = useState<"success" | "error">("success");
 
   // Обработчик изменения значений в текстовых полях
   const handleInputChange = (
@@ -74,15 +81,7 @@ export const Application = ({ className }: Props) => {
     });
 
     try {
-      // 1. Отправка запроса для кнопки "route"
-      await fetch("https://baby-sun.uz/api/count?button=route", {
-        method: "POST",
-        headers: {
-          "API-Key": API_KEY,
-        },
-      });
-
-      // 2. Отправка данных формы
+      // Отправка данных формы
       const response = await fetch(API_URL, {
         method: "POST",
         headers: {
@@ -98,20 +97,36 @@ export const Application = ({ className }: Props) => {
       if (response.ok) {
         const result = await response.json();
         console.log("Успех:", result);
-        alert(t("successMessage"));
+        // Show success modal
+        setModalStatus("success");
+        setModalOpen(true);
+        // Optionally, reset form
+        setForm({
+          fullname: "",
+          number: "",
+          service: "",
+        });
       } else if (response.status === 401 || response.status === 403) {
         console.error("Ошибка авторизации: API-ключ отсутствует или недействителен.");
-        alert(t("authErrorMessage"));
+        setModalStatus("error");
+        setModalOpen(true);
       } else {
         console.error("Ошибка:", response.statusText);
-        alert(t("submitErrorMessage"));
+        setModalStatus("error");
+        setModalOpen(true);
       }
     } catch (error) {
       console.error("Ошибка сети:", error);
-      alert(t("networkErrorMessage"));
+      setModalStatus("error");
+      setModalOpen(true);
     } finally {
       setIsSubmitting(false);
     }
+  };
+
+  // Обработчик закрытия модального окна
+  const handleCloseModal = () => {
+    setModalOpen(false);
   };
 
   return (
@@ -211,6 +226,14 @@ export const Application = ({ className }: Props) => {
           </div>
         </div>
       </div>
+
+      {/* Render the Response Modal */}
+      {modalOpen && (
+        <Response
+          status={modalStatus}
+          onClose={handleCloseModal}
+        />
+      )}
     </div>
   );
 };

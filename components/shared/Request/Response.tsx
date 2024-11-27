@@ -33,7 +33,7 @@ export const Response = ({ status, onClose, className }: Props) => {
           </button>
           {status == "success" ? (
             <Image
-              src="/svg/request/success-check.svg"
+              src="/svg/request/success-check.png"
               width={500}
               height={500}
               quality={100}

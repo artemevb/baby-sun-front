@@ -51,18 +51,6 @@ export const RequestAppointment = ({
     setIsLoading(true); // Включить лоадер
 
     try {
-      // Отправляем запрос для кнопки "route"
-      await axios.post(
-        "https://baby-sun.uz/api/count?button=route",
-        {},
-        {
-          headers: {
-            "API-Key":
-              "aFE~&#siAhCs9_Ni]AoC)HMF#y0V)!-kIh0h-3.eR0_W.gA~gk", // Укажите API ключ
-          },
-        }
-      );
-
       // Отправляем основную форму данных
       const response = await axios.post(
         "https://baby-sun.uz/api/application",
