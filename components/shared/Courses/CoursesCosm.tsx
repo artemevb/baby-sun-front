@@ -24,7 +24,7 @@ const cosmTeachers = [
       ru: "Специализируется на проведении различных видов косметологических процедур и массажей",
       en: "Turli xil kosmetologik muolajalar va massajlarni o'tkazishga ixtisoslashgan",
     },
-    image: "/images/about/doctors/Nargiza.jpg",
+    image: "/images/about/doctors/nargiza.jpg",
   },
 ];
 
