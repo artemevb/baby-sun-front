@@ -9,7 +9,7 @@ interface Props {
 
 const doctors = [
     {
-        image: '/images/about/doctors/Nargiza.jpg',
+        image: '/images/about/doctors/nargiza.jpg',
         doctorKey: 'abdullayeva',
         slug: 'abdullayeva-nargiza-shukrullayevna',
     },

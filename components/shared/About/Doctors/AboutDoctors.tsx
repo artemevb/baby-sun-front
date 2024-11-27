@@ -10,6 +10,11 @@ interface Props {
 
 const doctors = [
   {
+    image: '/images/about/doctors/sagdullaeva.jpg',
+    doctorKey: 'sagdullayeva',
+    slug: 'sagdullayeva-nilufar-shukrullayevna',
+  },
+  {
     image: '/images/about/doctors/kuchimov.jpg',
     doctorKey: 'kuchimov',
     slug: 'kuchimov-quvondiq-pirnazarovich',
@@ -23,11 +28,6 @@ const doctors = [
     image: '/images/about/doctors/doctor.png',
     doctorKey: 'muminova',
     slug: 'muminova-madina-muminqizi',
-  },
-  {
-    image: '/images/about/doctors/sagdullaeva.jpg',
-    doctorKey: 'sagdullayeva',
-    slug: 'sagdullayeva-nilufar-shukrullayevna',
   },
   {
     image: '/images/about/doctors/talipova.jpg',
@@ -63,7 +63,7 @@ export const AboutDoctors = ({ className }: Props) => {
     <div className={cn('py-24', className)}>
       <div className="space-y-12 w-full max-w-[1500px] px-4 mx-auto">
         <h2 className="text-5xl max-mdx:text-4xl font-bold">{t('title')}</h2>
-        <div className="grid grid-cols-1 mdx:grid-cols-2 lgx:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 mdx:grid-cols-2 lgx:grid-cols-4 gap-4 h-auto">
           {doctors.map((doctor, index) => (
             <AboutDoctorsItem
               key={index}
