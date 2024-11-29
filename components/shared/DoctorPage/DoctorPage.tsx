@@ -23,11 +23,6 @@ const doctors = [
     slug: 'abdullayeva-nargiza-shukrullayevna',
   },
   {
-    image: '/images/about/doctors/doctor.png',
-    doctorKey: 'muminova',
-    slug: 'muminova-madina-muminqizi',
-  },
-  {
     image: '/images/about/doctors/sagdullaeva.jpg',
     doctorKey: 'sagdullayeva',
     slug: 'sagdullayeva-nilufar-shukrullayevna',

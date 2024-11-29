@@ -9,11 +9,6 @@ interface Props {
 
 const doctors = [
     {
-        image: '/images/about/doctors/doctor.png',
-        doctorKey: 'muminova',
-        slug: 'muminova-madina-muminqizi',
-    },
-    {
         image: '/images/about/doctors/zarifa.jpg',
         doctorKey: 'ismoilova',
         slug: 'zarifa-ismoilova-abduvohid-qizi',

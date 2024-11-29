@@ -11,11 +11,6 @@ const doctors = [
     image: '/images/about/doctors/kuchimov.jpg',
     doctorKey: 'kuchimov',
     slug: 'kuchimov-quvondiq-pirnazarovich',
-  },
-  {
-    image: '/images/about/doctors/doctor.png',
-    doctorKey: 'muminova',
-    slug: 'muminova-madina-muminqizi',
   }
 ];
 

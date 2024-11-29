@@ -40,7 +40,7 @@
 //   );
 // };
 
-"use client";
+'use client';
 import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@lib/utils";
@@ -72,7 +72,7 @@ export const Banner = ({ className }: Props) => {
       description: t("banner1.description"),
       buttonName: t("banner1.buttonName"),
       link: "/about",
-      bannerPhoto: "/images/main/banner/image_11.png",
+      bannerPhoto: "/images/main/banner/new1.jpg",
     },
     {
       id: 2,
@@ -143,12 +143,11 @@ export const Banner = ({ className }: Props) => {
     };
   }, []);
 
-  // Animation settings for Framer Motion
   const slideAnimation = {
     initial: { opacity: 0, x: 100 },
     animate: { opacity: 1, x: 0 },
     exit: { opacity: 0, x: -100 },
-    transition: { duration: 0.7 }, // Specify transition parameters
+    transition: { duration: 0.7 },
   };
 
   return (
@@ -180,13 +179,11 @@ export const Banner = ({ className }: Props) => {
                 {bannerData[currentSlide].description}
               </p>
               {bannerData[currentSlide].id === 3 ? (
-                // Render RequestAppointment for the third banner
                 <RequestAppointment
                   className="bg-[#009FE3] text-white py-3 px-12 rounded-full hover:bg-[#006FCC] transition-all"
                   title={t("banner3.buttonName")}
                 />
               ) : (
-                // Render normal link and button for other banners
                 <Link href={bannerData[currentSlide].link}>
                   <button className="bg-[#009FE3] text-white py-3 px-12 rounded-full hover:bg-[#006FCC] transition-all">
                     {bannerData[currentSlide].buttonName}
@@ -214,7 +211,7 @@ export const Banner = ({ className }: Props) => {
                 height={3000}
                 quality={100}
                 alt={t("bannerAlt", { id: bannerData[currentSlide].id })}
-                className="w-full lgx:absolute bottom-0 object-contain lgx:object-cover h-full"
+                className={`w-full lgx:absolute bottom-0 object-contain lgx:object-cover h-full ${bannerData[currentSlide].id === 1 ? 'w-full lgx:absolute bottom-0 object-contain lgx:object-cover h-full lgx:min-h-[600px]' : ''}`}
               />
             </motion.div>
           </AnimatePresence>

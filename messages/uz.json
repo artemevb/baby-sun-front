@@ -374,13 +374,6 @@
         "Massaj"
       ]
     },
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "speciality": [
-        "Xirurg",
-        "Ortoped"
-      ]
-    },
     "sagdullayeva": {
       "fullname": "Sagdullayeva Nilufar Shukrullayevna",
       "speciality": [
@@ -432,17 +425,6 @@
       ],
       "speciality": [
         "Jarroh"
-      ]
-    },
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "info": "Bolalarda tayanch-harakat tizimi kasalliklarini diagnostika va davolash bo'yicha ixtisoslashgan",
-      "graphic": [
-        "8:00 - 17:00 dushanba-juma",
-        "8:00 - 15:00 shanba"
-      ],
-      "speciality": [
-        "Ortoped"
       ]
     },
     "abdullayeva": {
@@ -533,13 +515,6 @@
         "Massaj"
       ]
     },
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "speciality": [
-        "Xirurg",
-        "Ortoped"
-      ]
-    },
     "sagdullayeva": {
       "fullname": "Sagdullayeva Nilufar Shukrullayevna",
       "speciality": [
@@ -624,13 +599,6 @@
       "speciality": [
         "Xirurgiya"
       ]
-    },
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "speciality": [
-        "Xirurg",
-        "Ortoped"
-      ]
     }
   },
   "SpecialsChild": {
@@ -639,13 +607,6 @@
       "fullname": "Azizov Abduxalil Abduxodirovich",
       "speciality": [
         ""
-      ]
-    },
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "speciality": [
-        "Xirurg",
-        "Ortoped"
       ]
     },
     "ismoilova": {
@@ -667,13 +628,6 @@
   },
   "SpecialsOrto": {
     "title": "Xizmat ko‘rsatadigan mutaxassislar",
-    "muminova": {
-      "fullname": "Muminova Madina Mumin qizi",
-      "speciality": [
-        "Xirurg",
-        "Ortoped"
-      ]
-    },
     "sagdullayeva": {
       "fullname": "Sagdullayeva Nilufar Shukrullayevna",
       "speciality": [
@@ -1269,8 +1223,8 @@
         "price": "Individual narx"
       },
       "service3": {
-        "title": "Qopqoqli massaj",
-        "description": "Qon aylanishini yaxshilash uchun vakuum qopqoqlari bilan terapevtik massaj",
+        "title": "Bonkali massaj",
+        "description": "Qon aylanishini yaxshilash uchun vakuum bankalari bilan terapevtik massaj",
         "price": "Individual narx"
       },
       "service4": {

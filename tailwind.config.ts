@@ -13,8 +13,8 @@ const config: Config = {
       screen60: "calc(100vh - 60px)",
     },
     boxShadow: {
-      custom: "0 1px 10px -30px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05)", // Пример кастомной тени
-      blueGlow: "0 4px 20px rgba(37, 168, 245, 0.6)", // Синее свечение как на скриншоте
+      custom: "0 1px 10px -30px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05)", 
+      blueGlow: "0 4px 20px rgba(37, 168, 245, 0.6)",
     },
     screens: {
       sm: "320px",
