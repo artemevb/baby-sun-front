@@ -72,7 +72,7 @@ export const Banner = ({ className }: Props) => {
       description: t("banner1.description"),
       buttonName: t("banner1.buttonName"),
       link: "/about",
-      bannerPhoto: "/images/main/banner/new1.jpg",
+      bannerPhoto: "/images/main/banner/new2.png",
     },
     {
       id: 2,
@@ -88,7 +88,7 @@ export const Banner = ({ className }: Props) => {
       description: t("banner3.description"),
       buttonName: t("banner3.buttonName"),
       link: "/",
-      bannerPhoto: "/images/main/banner/image_33.png",
+      bannerPhoto: "/images/main/banner/2224.png",
     },
   ];
 
@@ -194,7 +194,7 @@ export const Banner = ({ className }: Props) => {
           </AnimatePresence>
         </div>
 
-        <div className="h-full relative flex items-end flex-1 overflow-hidden">
+        <div className="h-full relative flex items-center justify-center flex-1 overflow-hidden">
           <AnimatePresence mode="wait">
             <motion.div
               key={currentSlide}
@@ -203,7 +203,7 @@ export const Banner = ({ className }: Props) => {
               exit="exit"
               transition={{ duration: 0.7, ease: "easeInOut" }}
               variants={slideAnimation}
-              className="flex flex-col w-full h-full items-end"
+              className="flex flex-col w-full h-full items-center justify-center"
             >
               <Image
                 src={bannerData[currentSlide].bannerPhoto}
@@ -211,7 +211,8 @@ export const Banner = ({ className }: Props) => {
                 height={3000}
                 quality={100}
                 alt={t("bannerAlt", { id: bannerData[currentSlide].id })}
-                className={`w-full lgx:absolute bottom-0 object-contain lgx:object-cover h-full ${bannerData[currentSlide].id === 1 ? 'w-full lgx:absolute bottom-0 object-contain lgx:object-cover h-full lgx:min-h-[600px]' : ''}`}
+                className="w-full h-full object-contain"
+                style={{ maxWidth: '100%', maxHeight: '100%' }}
               />
             </motion.div>
           </AnimatePresence>
