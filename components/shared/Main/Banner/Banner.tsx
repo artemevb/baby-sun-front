@@ -80,7 +80,7 @@ export const Banner = ({ className }: Props) => {
       description: t("banner2.description"),
       buttonName: t("banner2.buttonName"),
       link: "/courses/hijoma-and-zuluk",
-      bannerPhoto: "/images/main/banner/image_22.png",
+      bannerPhoto: "/images/main/banner/2224.png",
     },
     {
       id: 3,
@@ -88,7 +88,7 @@ export const Banner = ({ className }: Props) => {
       description: t("banner3.description"),
       buttonName: t("banner3.buttonName"),
       link: "/",
-      bannerPhoto: "/images/main/banner/2224.png",
+      bannerPhoto: "/images/main/banner/21.png",
     },
   ];
 
@@ -113,11 +113,11 @@ export const Banner = ({ className }: Props) => {
         nextSlide();
       }
     }
-    touchStartX.current = null; // Reset the start point after swipe
+    touchStartX.current = null;
   };
 
   const handleTouchStart = (e: TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX; // Save the initial touch point
+    touchStartX.current = e.touches[0].clientX;
   };
 
   const nextSlide = () => {
@@ -131,7 +131,6 @@ export const Banner = ({ className }: Props) => {
   useEffect(() => {
     const slider = slideRef.current;
     if (slider) {
-      // Cast event handlers to unknown and then to EventListener to satisfy TypeScript
       slider.addEventListener("touchstart", handleTouchStart as unknown as EventListener);
       slider.addEventListener("touchend", handleSwipe as unknown as EventListener);
     }
