@@ -89,13 +89,13 @@ export default async function RootLayout({
             "@context": "https://schema.org",
             "@type": "Organization",
             "name": "Baby sun",
-            "url": siteUrl,
-            "logo": `${siteUrl}/favicon.ico`,
+            "url": "https://baby-sun.uz",
+            "logo": "https://baby-sun.uz/favicon.ico",
             "sameAs": [
               "https://www.youtube.com/@babysunbybolalar.massaji",
-              "https://www.facebook.com/people/Nilufar-Shukrullayevna/pfbid02D1gS3K8vPPpYUfA6WkxNeJH6mzdKuq2YMKb7aETan9xLup5miNvC9WrxH5xDZH5fl/?mibextid=qi2Omg&rdid=apvvmhWHC9qyoxlr&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FKFm7J2eZ84uXdKEq%2F%3Fmibextid%3Dqi2Omg",
+              "https://www.facebook.com/people/Nilufar-Shukrullayevna",
               "https://t.me/bolalarmassajibabysun",
-              "https://www.instagram.com/baby.sunnat?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              "https://www.instagram.com/baby.sunnat"
             ],
             "contactPoint": {
               "@type": "ContactPoint",
@@ -106,6 +106,7 @@ export default async function RootLayout({
             }
           })}
         </script>
+
 
         <title>{title}</title>
       </head>
