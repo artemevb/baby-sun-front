@@ -5,7 +5,7 @@ import { BannerCosm } from './Banner/BannerCosm';
 import { AboutCosm } from './About/AboutCosm';
 import { ModulesCosm } from './Modules/ModulesCosm';
 import { Application } from '../Application/Application';
-// import { Map } from '../Map/Map';
+import { Map } from '../Map/Map';
 import { Teachers } from './Teachers/Teachers';
 import { Bonuses } from './Bonuses/Bonuses';
 
@@ -37,7 +37,7 @@ export const CoursesCosm = ({ className }: Props) => {
       <Teachers teachers={cosmTeachers} />
       <Bonuses />
       <Application />
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 };

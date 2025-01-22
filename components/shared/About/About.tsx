@@ -7,7 +7,7 @@ import { AboutDoctors } from './Doctors/AboutDoctors';
 import { Reviews } from './Reviews/Reviews';
 import { Licenses } from './Licenses/Licenses';
 import { Application } from '../Application/Application';
-// import { Map } from '../Map/Map';
+import { Map } from '../Map/Map';
 import { ReviewsFilter } from './Reviews/ReviewsFilter';
 
 interface Props {
@@ -25,7 +25,7 @@ export const About = ({ className }: Props) => {
         <Reviews />
         <ReviewsFilter />
         <Application />
-        {/* <Map /> */}
+        <Map />
     </div>
   );
 };

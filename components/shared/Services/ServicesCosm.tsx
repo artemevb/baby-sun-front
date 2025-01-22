@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from '@lib/utils';
-// import { Map } from '../Map/Map';
+import { Map } from '../Map/Map';
 import { Application } from '../Application/Application';
 import { List } from './List/ListCosm';
 import { Benefit } from './Benefit/BenefitCosm';
@@ -17,7 +17,7 @@ export const ServicesCosm = ({ className }: Props) => {
       <Benefit />
       <SpecialsCosm />
       <Application />
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 };

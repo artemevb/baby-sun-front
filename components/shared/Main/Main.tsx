@@ -6,7 +6,7 @@ import { Services } from "./Services/Services";
 import { Advantages } from "./Advantages/Advantages";
 import { Reviews } from "./Reviews/Reviews";
 import { Application } from "../Application/Application";
-// import { Map } from "@/components/shared/Map/Map";
+import { Map } from "@/components/shared/Map/Map";
 
 interface Props {
   className?: string;
@@ -21,7 +21,7 @@ export const Main = ({ className }: Props) => {
       <Advantages />
       <Reviews />
       <Application />
-      {/* <Map /> */}
+      <Map />
     </main>
   );
 };

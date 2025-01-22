@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from '@lib/utils';
-// import { Map } from '../Map/Map';
+import { Map } from '../Map/Map';
 import { Application } from '../Application/Application';
 import { List } from './List/List';
 import { Benefit } from './Benefit/Benefit';
@@ -17,7 +17,7 @@ export const Services = ({ className }: Props) => {
       <Benefit />
       <Specials />
       <Application />
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 };
