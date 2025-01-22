@@ -282,7 +282,7 @@
       "description": "Jarrohlik va ortopediya dan ayollar uchun SPA va bolalar massajigacha. Sog'lig'ingiz uchun professional parvarish va ilg'or metodlar",
       "buttonName": "Xizmatga yozilish"
     },
-    "bannerAlt": "Banner ikonkasi {{id}}"
+    "bannerAlt": "Banner ikonkasi "
   },
   "About_Comp": {
     "title": "Klinikamiz haqida",
@@ -500,58 +500,12 @@
       ]
     }
   },
-  "AboutDoctors": {
-    "title": "Bizning shifokorlarimiz",
-    "kuchimov": {
-      "fullname": "Kuchimov Quvondiq Pirnazarovich",
-      "speciality": [
-        "Xirurgiya"
-      ]
-    },
-    "abdullayeva": {
-      "fullname": "Abdullayeva Nargiza Shukrullayevna",
-      "speciality": [
-        "Kosmetologiya",
-        "Massaj"
-      ]
-    },
-    "sagdullayeva": {
-      "fullname": "Sagdullayeva Nilufar Shukrullayevna",
-      "speciality": [
-        "Reabilitolog"
-      ]
-    },
-    "talipova": {
-      "fullname": "Talipova Feruza Xojimuratovna",
-      "speciality": [
-        "Operatsion hamshira"
-      ]
-    },
-    "ziganshina": {
-      "fullname": "Ziganshina Layli Sharofitdinovna",
-      "speciality": [
-        "Operatsion hamshira"
-      ]
-    },
-    "karimova": {
-      "fullname": "Karimova Nafisa Sadullayevna",
-      "speciality": [
-        "Bemorlarga g'amxo'rlik qilish kurslari kuratori"
-      ]
-    },
-    "ismoilova": {
-      "fullname": "Zarifa Ismoilova Abduvohid qizi",
-      "speciality": [
-        "Massaj"
-      ]
-    },
-    "azizov": {
-      "fullname": "Azizov Abduhalil Abduqodirovich",
-      "speciality": [
-        "Ortoped"
-      ]
-    }
-  },
+  
+
+
+
+
+  
   "ServicesXirurg": {
     "doctors": [
       {
