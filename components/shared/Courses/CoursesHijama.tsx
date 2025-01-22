@@ -4,7 +4,7 @@ import { BannerHijama } from './Banner/BannerHijama';
 import { AboutHijama } from './About/AboutHijama';
 import { ModulesHijama } from './Modules/ModulesHijama';
 import { Application } from '../Application/Application';
-import { Map } from '../Map/Map';
+// import { Map } from '../Map/Map';
 import { Teachers } from './Teachers/Teachers';
 import { Bonuses } from './Bonuses/Bonuses';
 
@@ -48,7 +48,7 @@ export const CoursesHijama = ({ className }: Props) => {
       <Teachers teachers={hijamaTeachers} />
       <Bonuses />
       <Application />
-      <Map />
+      {/* <Map /> */}
     </div>
   );
 };
