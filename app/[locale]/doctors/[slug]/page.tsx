@@ -1,6 +1,6 @@
 import { Application } from "@/components/shared/Application/Application";
 import { DoctorPage } from "@/components/shared/DoctorPage/DoctorPage";
-import { Map } from "@/components/shared/Map/Map";
+// import { Map } from "@/components/shared/Map/Map";
 
 
 export default function Home() {
@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <DoctorPage />
         <Application />
-        <Map />
+        {/* <Map /> */}
       </div>
     );
   }

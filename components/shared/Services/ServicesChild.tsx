@@ -1,6 +1,6 @@
 import React from 'react';
 import { cn } from '@lib/utils';
-import { Map } from '../Map/Map';
+// import { Map } from '../Map/Map';
 import { Application } from '../Application/Application';
 import { List } from './List/ListChild';
 import { Benefit } from './Benefit/BenefitChild';
@@ -17,7 +17,7 @@ export const ServicesChild = ({ className }: Props) => {
       <Benefit />
       <SpecialsChild />
       <Application />
-      <Map />
+      {/* <Map /> */}
     </div>
   );
 };

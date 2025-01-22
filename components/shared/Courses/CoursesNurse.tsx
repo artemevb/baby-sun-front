@@ -4,7 +4,7 @@ import { BannerNurse } from './Banner/BannerNurse';
 import { AboutNurse } from './About/AboutNurse';
 import { ModulesNurse } from './Modules/ModulesNurse';
 import { Application } from '../Application/Application';
-import { Map } from '../Map/Map';
+// import { Map } from '../Map/Map';
 import { Teachers } from './Teachers/Teachers';
 import { Bonuses } from './Bonuses/Bonuses';
 
@@ -48,7 +48,7 @@ export const CoursesNurse = ({ className }: Props) => {
       <Teachers teachers={nurseTeachers} />
       <Bonuses />
       <Application />
-      <Map />
+      {/* <Map /> */}
     </div>
   );
 };

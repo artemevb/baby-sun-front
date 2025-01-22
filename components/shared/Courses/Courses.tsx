@@ -4,7 +4,7 @@ import { Banner } from './Banner/Banner';
 import { About } from './About/About';
 import { Modules } from './Modules/Modules';
 import { Application } from '../Application/Application';
-import { Map } from '../Map/Map';
+// import { Map } from '../Map/Map';
 import { Teachers } from './Teachers/Teachers';
 import { Bonuses } from './Bonuses/Bonuses';
 
@@ -36,7 +36,7 @@ export const Courses = ({ className }: Props) => {
       <Teachers teachers={coursTeachers} />
       <Bonuses />
       <Application />
-      <Map />
+      {/* <Map /> */}
     </div>
   );
 };
