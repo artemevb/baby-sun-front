@@ -4,6 +4,7 @@ import { getMessages } from "next-intl/server";
 import { unstable_setRequestLocale } from "next-intl/server";
 import { Header } from "@/components/shared/Header";
 import { Footer } from "@/components/shared/Footer/Footer";
+import Script from 'next/script';
 import "./globals.css";
 
 const raleway = Raleway({
@@ -110,6 +111,21 @@ export default async function RootLayout({
         <title>{title}</title>
       </head>
       <body className={`${raleway.variable} antialiased`}>
+
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-RKBG052XLG"
+          strategy="afterInteractive"
+        />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-RKBG052XLG');
+        `}
+        </Script>
+
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
